@@ -181,4 +181,23 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 ## Main Concepts and Key Formulas
 
+- **Neuron Activation:**  
+  $a = \sum_{i=1}^{p} w_i X_i$
+- **Output:**  
+  $y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
+- **Error Calculation:**  
+  $e_k(n) = d_k(n) - y_k(n)$
+- **Cost Function (Mean Squared Error):**  
+  $E(n) = \frac{1}{2} e_k^2(n)$
+- **Weight Update (Gradient Descent):**  
+  $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
+- **Backpropagation for Output Layer:**  
+  $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
+- **Backpropagation for Hidden Layer:**  
+  $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w_{kj}^{(2)} \right) \cdot f'^{(1)}(u_j)$
+
+<br>
+
+## Training: Two-Phase Process
+
 
