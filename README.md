@@ -209,7 +209,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - **Backpropagation for Hidden Layer:**
 
-$\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cdot f'^{(1)}(u^{(1)}_j)$
+$\delta^{(1)}_j(t)$ = $\left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cdot f'^{(1)}(u^{(1)}_j)$
 
 **Backpropagation for Hidden Layer:**
 
@@ -249,15 +249,11 @@ And example weights:
 
 - **Compute pre-activation (input to each hidden neuron):**
 
-  $$
-  u^{(1)}_j = \sum_i X_i \cdot w^{(1)}_{ji}
-  $$
+  $u^{(1)}_j = \sum_i X_i \cdot w^{(1)}_{ji}$
 
 - **Compute activation (output from each hidden neuron):**
 
-  $$
-  y^{(1)}_j = \tanh(u^{(1)}_j)
-  $$
+  $y^{(1)}_j = \tanh(u^{(1)}_j)$
 
 - Compute output layer pre-activation:  
   $u^{(2)} = \sum_j y^{(1)}_j w^{(2)}_j$
