@@ -278,9 +278,11 @@ $$</p>
   
   where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
-- Hidden layer delta:  
-  $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w^{(2)}_{kj} \right) \cdot f'^{(1)}(u_j)$
+- Hidden layer delta:
 
+ ```latex
+  $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w^{(2)}_{kj} \right) \cdot f'^{(1)}(u_j)$
+```
 
 <br>
 
