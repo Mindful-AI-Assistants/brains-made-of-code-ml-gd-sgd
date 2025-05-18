@@ -226,6 +226,11 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 - The error for each output neuron is calculated.
 
 **Example Calculation:**
+
+For input X₀ = 1, X₁ = 0.43, X₂ = 0.78  
+and weights w⁽¹⁾₀₀ = 0.45, w⁽¹⁾₀₁ = 0.89, etc.,  
+compute the activations and outputs for each layer using the activation function (e.g., tanh).
+
 - For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$ and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc., compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
 
 ### 2. Backward Phase (Backpropagation)
@@ -235,6 +240,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 - For hidden layers, the error is determined by the weighted errors of the next layer (using the chain rule).
 
 **Weight Update Example:**
+
 - For output layer:
   
   $$
@@ -243,12 +249,6 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   
   where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$.
 
-- For hidden layer:
-  $$
-  w^{(1)}(t+1) = w^{(1)}(t) + \eta \delta^{(1)} x(t)
-  $$
-  
-  where $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w_{kj}^{(2)} \right) \cdot f'^{(1)}(u_j)$.
 
 <br>
 
@@ -258,13 +258,11 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 2. **Present an input vector $X$.**
 3. **Compute outputs for the first (hidden) layer:**
    
-   $$
-   u^{(1)}_j = \sum_{i} X_i w^{(1)}_{ji}
-   $$
-   
-   $$
-   y^{(1)}_j = \tanh(u^{(1)}_j)
-   $$
+$u_j^{(1)} = \sum_i X_i w_{ji}^{(1)}$
+
+$y_j^{(1)} = \tanh(u_j^{(1)})$
+
+
    
 4. **Compute output for the second (output) layer:**
    
