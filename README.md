@@ -86,7 +86,7 @@ y =
 - Contextual information processing
 - Input-output mapping
 
-### Application Areas
+## Application Areas
 
 - Pattern classification
 - Clustering/categorization
@@ -97,3 +97,21 @@ y =
 - Control systems
 
   <br>
+
+## Learning Process
+
+ANNs operate in two main phases:
+
+1. **Training Phase:** The network learns by adjusting its free parameters (weights) to perform a specific function.
+2. **Application Phase:** The trained network is used for its intended purpose (e.g., pattern or image classification).
+
+## The learning process involves:
+
+1. Stimulation by the environment (input).
+2. Modification of free parameters (weights) as a result.
+3. The network responds differently due to internal changes.
+
+Learning is governed by a set of pre-established rules (learning algorithm) and a learning paradigm (model).
+
+<br>
+
