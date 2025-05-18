@@ -213,8 +213,9 @@ $\delta^{(1)}_j(t)$ = $\left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \
 
 **Backpropagation for Hidden Layer:**
 
-delta_j^(1)(t) = [ sum_k ( delta_k^(2) * w_kj^(2) ) ] * f'^(1)( u_j^(1) )
-
+```latex
+delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
+```
 
 <br>
 
