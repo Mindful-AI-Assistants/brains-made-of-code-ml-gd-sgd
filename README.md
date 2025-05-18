@@ -349,7 +349,8 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 - Content derived from [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf).
 - Classic works by McCulloch & Pitts, Hebb, Rosenblatt, Hopfield, Rumelhart, Hinton & Williams, and Cybenko.
-- NVIDEA Building a Brain in 10 Minutes Course
+- NVIDEA Building a Brain Course
+- Neuralearn Courses
 
 
 #
