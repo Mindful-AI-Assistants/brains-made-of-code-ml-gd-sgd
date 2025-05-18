@@ -234,4 +234,33 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 ## Example: Training a Two-Layer Perceptron
 
+1. **Initialize all weights randomly.**
+2. **Present an input vector $X$.**
+3. **Compute outputs for the first (hidden) layer:**
+   $$
+   u^{(1)}_j = \sum_{i} X_i w^{(1)}_{ji}
+   $$
+   $$
+   y^{(1)}_j = \tanh(u^{(1)}_j)
+   $$
+4. **Compute output for the second (output) layer:**
+   $$
+   u^{(2)} = \sum_{j} y^{(1)}_j w^{(2)}_{j}
+   $$
+   $$
+   y^{(2)} = \tanh(u^{(2)})
+   $$
+5. **Calculate error:**
+   $$
+   e = d - y^{(2)}
+   $$
+   $$
+   E = \frac{1}{2} e^2
+   $$
+6. **Backward phase:**
+   - Compute $\delta^{(2)}$ and update output weights.
+   - Compute $\delta^{(1)}$ for each hidden neuron and update hidden weights.
+
+<br>
+
 
