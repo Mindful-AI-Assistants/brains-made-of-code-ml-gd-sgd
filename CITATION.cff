@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Mindful AI Assistants
+message: If you really want to cite this repository, here's how you should cite it.
+type: software
+authors:
+  - given-names: brains-made-of-code-ml-gd-sgd
+repository-code: https://github.com/Mindful-AI-Assistants/brains-made-of-code-ml-gd-sgd
+license: MIT License
+
