@@ -135,5 +135,30 @@ $$
 w_{kj}(n+1) = w_{kj}(n) + \Delta w_{kj}(n)
 $$
 
----
+<br>
+
+# The Perceptron
+
+The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It uses supervised learning and error correction to adjust the weight vector. For a perceptron with two inputs and a bias:
+
+- The bias allows the threshold value in the activation function to be set, and is updated like any other weight.
+
+<br>
+
+## Nonlinearities and Activation Functions
+
+- Nonlinearities are inherent in most real-world problems.
+- Incorporated through nonlinear activation functions (e.g., sigmoid, tanh) and multiple layers.
+- MLPs use sigmoid functions in hidden layers and linear functions in the output layer.
+
+<br>
+
+## MLP (MultiLayer Perceptron)
+
+- Composed of neurons with nonlinear activation functions in intermediate (hidden) layers.
+- Only the output layer receives a desired output during training.
+- The error for hidden layers is estimated by the effect they cause on the output error (backpropagation).
+
+<br>
+
 
