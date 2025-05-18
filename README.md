@@ -75,3 +75,25 @@ y =
 ```
   
 <br>
+
+
+## Key Benefits of ANNs
+
+- Adaptability through learning
+- Ability to operate with partial knowledge
+- Fault tolerance
+- Generalization
+- Contextual information processing
+- Input-output mapping
+
+### Application Areas
+
+- Pattern classification
+- Clustering/categorization
+- Function approximation
+- Prediction
+- Optimization
+- Content-addressable memory
+- Control systems
+
+  <br>
