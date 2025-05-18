@@ -1,12 +1,12 @@
 
 <br>
 
-## 🧠  [Brains Made of Code]()
-### Machine Learning Regression with Gradient Descent and Stochastic Optimization
+##  <p align="center"> 🧠  [Brains Made of Code]()
+### <p align="center"> Machine Learning Regression with Gradient Descent and Stochastic Optimization
 
 <br>
 
-
+ 
 ![Image](https://github.com/user-attachments/assets/c1d1a6ae-cf3d-4a71-871f-461928012002)
 
 <br>
