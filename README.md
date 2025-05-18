@@ -48,8 +48,7 @@ At birth, a child's brain has a large structure and the ability to develop its o
 
 ### Each artificial neuron receives input signals $X_1, X_2, ..., X_p$ (binary or real values), each multiplied by a weight $w_1, w_2, ..., w_p$ (real values). The neuron computes a weighted sum (activity level):
 
-$$
-a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
+$$a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
 $$
 
 
@@ -186,16 +185,22 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - **Neuron Activation:**  
   $a = \sum_{i=1}^{p} w_i X_i$
+  
 - **Output:**  
   $y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
+  
 - **Error Calculation:**  
   $e_k(n) = d_k(n) - y_k(n)$
+  
 - **Cost Function (Mean Squared Error):**  
   $E(n) = \frac{1}{2} e_k^2(n)$
+  
 - **Weight Update (Gradient Descent):**  
   $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
+  
 - **Backpropagation for Output Layer:**  
   $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
+  
 - **Backpropagation for Hidden Layer:**  
   $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w_{kj}^{(2)} \right) \cdot f'^{(1)}(u_j)$
 
