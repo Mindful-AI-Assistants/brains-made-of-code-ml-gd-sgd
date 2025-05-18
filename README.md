@@ -264,31 +264,23 @@ $y_j^{(1)} = \tanh(u_j^{(1)})$
 
    
 4. **Compute output for the second (output) layer:**
-   
-   $$
-   u^{(2)} = \sum_{j} y^{(1)}_j w^{(2)}_{j}
-   $$
-   
-   $$
-   y^{(2)} = \tanh(u^{(2)})
-   $$
-   
+
+   $u^{(2)} = \sum_j y^{(1)}_j \cdot w^{(2)}_j$
+
+   $y^{(2)} = \tanh(u^{(2)})$
+
 5. **Calculate error:**
-   
-   $$
-   e = d - y^{(2)}
-   $$
-   
-   $$
-   E = \frac{1}{2} e^2
-   $$
-   
+
+   $e = d - y^{(2)}$
+
+   $E = \frac{1}{2} e^2$
+
 6. **Backward phase:**
-    
+
    - Compute $\delta^{(2)}$ and update output weights.
    - Compute $\delta^{(1)}$ for each hidden neuron and update hidden weights.
 
-<br>
+  <br>
 
 ## Why Two Layers and 3–5 Neurons per Layer?
 
