@@ -214,39 +214,52 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 <br>
 
-# Training: Two-Phase Process
+## Training: Two-Phase Process
 
-## 1. Forward Phase
+### 1. Forward Phase
 
-- Initialize learning rate $\eta$ and weight matrix $w$ with random values.
-- Present input to the first layer.
-- Each neuron in layer $i$ computes its output, which is passed to the next layer.
-- The final output is compared to the desired output.
+- Initialize learning rate $\eta$ and weight matrix $w$ with random values.  
+- Present input to the first layer.  
+- Each neuron in layer $i$ computes its output, which is passed to the next layer.  
+- The final output is compared to the desired output.  
 - The error for each output neuron is calculated.
 
 **Example Calculation:**
 
-For input X₀ = 1, X₁ = 0.43, X₂ = 0.78  
-and weights w⁽¹⁾₀₀ = 0.45, w⁽¹⁾₀₁ = 0.89, etc.,  
-compute the activations and outputs for each layer using the activation function (e.g., tanh).
+For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$,  
+and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc.,  
+compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
 
-- For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$ and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc., compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
+- Compute pre-activation:  
+  $u^{(1)}_j = \sum_{i} X_i w^{(1)}_{ji}$
+
+- Compute activation (output of neuron):  
+  $y^{(1)}_j = \tanh(u^{(1)}_j)$
+
+- Compute output layer pre-activation:  
+  $u^{(2)} = \sum_{j} y^{(1)}_j w^{(2)}_{j}$
+
+- Output of network:  
+  $y^{(2)} = \tanh(u^{(2)})$
+
+- Calculate error:  
+  $e = d - y^{(2)}$  
+  $E = \frac{1}{2} e^2$
+
+<br>
 
 ### 2. Backward Phase (Backpropagation)
 
-- Start from the output layer.
-- Each node adjusts its weight to reduce its error.
-- For hidden layers, the error is determined by the weighted errors of the next layer (using the chain rule).
+- Start from the output layer.  
+- Each node adjusts its weight to reduce its error.  
+- For hidden layers, the error is determined by the weighted errors of the next layer (chain rule).
 
-**Weight Update Example:**
+- Output layer weight update:  
+  $w^{(2)}(t+1) = w^{(2)}(t) + \eta \delta^{(2)} y^{(1)}(t)$  
+  where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
-- For output layer:
-  
-  $$
-  w^{(2)}(t+1) = w^{(2)}(t) + \eta \delta^{(2)} y^{(1)}(t)
-  $$
-  
-  where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$.
+- Hidden layer delta:  
+  $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w^{(2)}_{kj} \right) \cdot f'^{(1)}(u_j)$
 
 
 <br>
