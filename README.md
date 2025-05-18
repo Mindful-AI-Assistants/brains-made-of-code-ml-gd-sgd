@@ -161,4 +161,24 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 
 <br>
 
+# Two-Layer Perceptron Architecture
+
+A two-layer perceptron (MLP with one hidden layer and one output layer) can approximate any function, linear or not (Cybenko, 1989). 
+
+- **Layer 1 (Hidden/Intermediate):** Each neuron contributes lines (hyperplanes) to form surfaces in input space, "linearizing" the features.
+- **Layer 2 (Output):** Neurons combine these lines to form convex regions, enabling complex decision boundaries.
+
+**Number of Neurons:**  
+- The generalization capacity of the network increases with the number of neurons.
+- Empirically, 3–5 neurons per layer strike a good balance between modeling power and computational cost.
+
+**Layer Types:**
+- **Input Layer:** Receives input patterns.
+- **Hidden Layer(s):** Main processing; feature extraction.
+- **Output Layer:** Produces the final result.
+
+<br>
+
+## Main Concepts and Key Formulas
+
 
