@@ -263,4 +263,97 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 <br>
 
+## Why Two Layers and 3–5 Neurons per Layer?
+
+- **Theoretical Power:** Two-layer MLPs can approximate any continuous function (universal approximation theorem).
+- **Practical Simplicity:** Most real-world problems rarely require more than two layers.
+- **Cost-Benefit:** 3–5 neurons per layer often provide sufficient capacity for generalization without excessive computational cost.
+
+
+<br>
+
+## Local Maximum (Local Maxima)
+
+In gradient descent training, the algorithm updates weights to reduce error by following the gradient of the cost function. However, the cost function may have multiple local maxima or minima. 
+
+- **Local Maximum:** A point where the cost function has a peak relative to nearby points but is not the absolute highest point globally.
+- Gradient descent can get "stuck" in local maxima or minima, preventing the network from reaching the best possible solution.
+- Techniques such as random restarts, momentum, or advanced optimization algorithms help mitigate this problem.
+
+
+<br>
+
+## Usage
+
+Artificial Neural Networks, especially perceptrons and MLPs, are widely used in various domains due to their adaptability and ability to model complex nonlinear relationships.
+
+### Strengths
+
+- Ability to learn from examples and generalize to unseen data.
+- Fault tolerance and robustness to noisy inputs.
+- Flexibility to model complex, nonlinear functions.
+- Parallel processing capability.
+
+### Weaknesses
+
+- Training can be computationally expensive, especially for large networks.
+- Susceptible to getting stuck in local minima or maxima.
+- Requires careful tuning of hyperparameters (learning rate, number of neurons, layers).
+- Lack of interpretability compared to simpler models.
+
+
+<br>
+
+## Additional Relevant Points
+
+### Learning Rate (η) Importance
+
+The learning rate $\eta$ controls the step size during weight updates:
+
+- If $\eta$ is too large, the training may overshoot minima and fail to converge.
+- If $\eta$ is too small, training will be very slow and may get stuck in local minima.
+- Adaptive learning rate methods (e.g., learning rate decay, Adam optimizer) can improve convergence.
+
+### Activation Functions
+
+While the document mentions sigmoid and tanh, it is useful to note:
+
+- **ReLU (Rectified Linear Unit):**  
+  Widely used in modern neural networks for faster convergence and to mitigate vanishing gradient problems.
+  
+- **Softmax:**  
+  Commonly used in output layers for multi-class classification problems.
+
+### Overfitting and Regularization
+
+- Neural networks with too many parameters can overfit training data, performing poorly on unseen data.
+- Techniques such as early stopping, dropout, and L2 regularization help improve generalization.
+
+### Batch vs. Online Learning
+
+- The document discusses iterative weight updates per sample (online/stochastic gradient descent).
+- In practice, **batch** or **mini-batch** gradient descent is often used for computational efficiency and stability.
+
+### Practical Considerations
+
+- Data preprocessing (normalization, encoding) is crucial for effective training.
+- Initialization of weights affects convergence speed and final performance.
+- Monitoring training with validation sets helps detect overfitting.
+
+
+<br>
+
+## References
+
+- Content derived from [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf).
+- Classic works by McCulloch & Pitts, Hebb, Rosenblatt, Hopfield, Rumelhart, Hinton & Williams, and Cybenko.
+- NVIDEA Building a Brain in 10 Minutes Course
+
+
+#
+
+
+
+
+
 
