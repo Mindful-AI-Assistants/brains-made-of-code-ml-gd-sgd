@@ -115,3 +115,25 @@ Learning is governed by a set of pre-established rules (learning algorithm) and 
 
 <br>
 
+## Error Correction Learning
+
+The output of neuron $k$ at iteration $n$ is $y_k(n)$, and the desired response is $d_k(n)$. The error signal is:
+
+$$
+e_k(n) = d_k(n) - y_k(n)
+$$
+
+The goal is to minimize the cost function (performance index):
+
+$$
+E(n) = \frac{1}{2} e_k^2(n)
+$$
+
+Weights are updated as:
+
+$$
+w_{kj}(n+1) = w_{kj}(n) + \Delta w_{kj}(n)
+$$
+
+---
+
