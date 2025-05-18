@@ -211,6 +211,10 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cdot f'^{(1)}(u^{(1)}_j)$
 
+**Backpropagation for Hidden Layer:**
+
+delta_j^(1)(t) = [ sum_k ( delta_k^(2) * w_kj^(2) ) ] * f'^(1)( u_j^(1) )
+
 
 <br>
 
@@ -226,16 +230,34 @@ $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cd
 
 **Example Calculation:**
 
-- For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$,  
-  and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc.:
+### Forward Computation Example
 
-  Compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
+For input values:
 
-- Compute pre-activation:  
-  $u^{(1)}_j = \sum_i X_i \cdot w^{(1)}_{ji}$
+- \( X_0 = 1 \)
+- \( X_1 = 0.43 \)
+- \( X_2 = 0.78 \)
 
-- Compute activation (output of neuron):  
-  $y^{(1)}_j = \tanh(u^{(1)}_j)$
+And example weights:
+
+- \( w^{(1)}_{00} = 0.45 \)
+- \( w^{(1)}_{01} = 0.89 \)
+- etc.
+
+
+**Compute the activations and outputs for each layer using an activation function (e.g.,** `tanh`**):**
+
+- **Compute pre-activation (input to each hidden neuron):**
+
+  $$
+  u^{(1)}_j = \sum_i X_i \cdot w^{(1)}_{ji}
+  $$
+
+- **Compute activation (output from each hidden neuron):**
+
+  $$
+  y^{(1)}_j = \tanh(u^{(1)}_j)
+  $$
 
 - Compute output layer pre-activation:  
   $u^{(2)} = \sum_j y^{(1)}_j w^{(2)}_j$
