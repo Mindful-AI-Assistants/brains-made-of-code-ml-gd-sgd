@@ -200,4 +200,38 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 ## Training: Two-Phase Process
 
+## 1. Forward Phase
+
+- Initialize learning rate $\eta$ and weight matrix $w$ with random values.
+- Present input to the first layer.
+- Each neuron in layer $i$ computes its output, which is passed to the next layer.
+- The final output is compared to the desired output.
+- The error for each output neuron is calculated.
+
+**Example Calculation:**
+- For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$ and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc., compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
+
+### 2. Backward Phase (Backpropagation)
+
+- Start from the output layer.
+- Each node adjusts its weight to reduce its error.
+- For hidden layers, the error is determined by the weighted errors of the next layer (using the chain rule).
+
+**Weight Update Example:**
+- For output layer:
+  $$
+  w^{(2)}(t+1) = w^{(2)}(t) + \eta \delta^{(2)} y^{(1)}(t)
+  $$
+  where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$.
+
+- For hidden layer:
+  $$
+  w^{(1)}(t+1) = w^{(1)}(t) + \eta \delta^{(1)} x(t)
+  $$
+  where $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w_{kj}^{(2)} \right) \cdot f'^{(1)}(u_j)$.
+
+<br>
+
+## Example: Training a Two-Layer Perceptron
+
 
