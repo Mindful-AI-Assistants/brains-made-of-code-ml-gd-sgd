@@ -227,13 +227,12 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 **Example Calculation:**
 
 - For input $X_0 = 1$, $X_1 = 0.43$, $X_2 = 0.78$,  
-and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc.,  
+  and weights $w^{(1)}_{00} = 0.45$, $w^{(1)}_{01} = 0.89$, etc.:
 
-Compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
-
+  Compute the activations and outputs for each layer using the activation function (e.g., $\tanh$).
 
 - Compute pre-activation:  
-  $u^{(1)}_j = \sum_i X_i w^{(1)}_{ji}$
+  $u^{(1)}_j = \sum_i X_i \cdot w^{(1)}_{ji}$
 
 - Compute activation (output of neuron):  
   $y^{(1)}_j = \tanh(u^{(1)}_j)$
