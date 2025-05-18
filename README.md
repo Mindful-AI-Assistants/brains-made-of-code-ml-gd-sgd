@@ -209,11 +209,13 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   
 - **Backpropagation for Hidden Layer:**
   
-  $\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k w_{kj}^{(2)} \right) \cdot f'^{(1)}(u_j)$
+  δ⁽¹⁾ⱼ(t) = ( ∑ₖ δ⁽²⁾ₖ · w⁽²⁾ₖⱼ ) · f'⁽¹⁾(uⱼ)
+
+
 
 <br>
 
-## Training: Two-Phase Process
+# Training: Two-Phase Process
 
 ## 1. Forward Phase
 
