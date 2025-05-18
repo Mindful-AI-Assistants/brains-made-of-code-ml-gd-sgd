@@ -14,10 +14,12 @@ This project demonstrates how to train a Linear Regression model using both Batc
 
 Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
 
+<br><br>
 
-<br>
+#### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
 
-
+<br><br
+      
 # Artificial Neural Networks – Gradient Descent
 
 This repository provides a comprehensive explanation of Artificial Neural Networks (ANNs), focusing on the perceptron and multilayer perceptron (MLP) architectures, and the Gradient Descent algorithm for training. The content is based on the [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf) document.
