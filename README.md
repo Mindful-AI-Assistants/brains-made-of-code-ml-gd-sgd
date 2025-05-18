@@ -209,6 +209,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - **Backpropagation for Hidden Layer:**
 
+
 ```latex
 delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
 ```
@@ -272,7 +273,9 @@ $$</p>
 - For hidden layers, the error is determined by the weighted errors of the next layer (chain rule).
 
 - Output layer weight update:  
+
   $w^{(2)}(t+1) = w^{(2)}(t) + \eta \delta^{(2)} y^{(1)}(t)$  
+  
   where $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
 - Hidden layer delta:  
