@@ -209,7 +209,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - **Backpropagation for Hidden Layer:**
 
-$\delta^{(1)}_j(t)$ = $\left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cdot f'^{(1)}(u^{(1)}_j)$
+$\delta^{(1)}_j(t) = \left( \sum_k \delta^{(2)}_k \cdot w^{(2)}_{kj} \right) \cdot f'^{(1)}(u^{(1)}_j)$
 
 **Backpropagation for Hidden Layer:**
 
