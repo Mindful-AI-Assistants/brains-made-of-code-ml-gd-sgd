@@ -38,6 +38,26 @@ At birth, a child's brain has a large structure and the ability to develop its o
 - **Hebb (1949):** Developed the basic model of self-organization.
 - **Rosenblatt (1958):** Introduced the perceptron, a supervised learning model.
 - **Hopfield (1982), Rumelhart, Hinton & Williams:** Revived the field with symmetric networks for optimization and the backpropagation method.
+  
 <br>
 
 ## Artificial Neuron Model
+
+ach artificial neuron receives input signals $X_1, X_2, ..., X_p$ (binary or real values), each multiplied by a weight $w_1, w_2, ..., w_p$ (real values). The neuron computes a weighted sum (activity level):
+
+$$
+a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
+$$
+
+The output $y$ is determined by an activation function, such as:
+
+$$
+y =
+\begin{cases}
+1, & \text{if } a \geq t \\
+0, & \text{if } a < t
+\end{cases}
+$$
+
+  
+<br>
