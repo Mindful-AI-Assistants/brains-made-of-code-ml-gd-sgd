@@ -6,17 +6,22 @@
 
 <br><br>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/20470843-6f04-4e20-81d5-7aa918ca9a2b" width="600"/>
+</p>
 
-![Image](https://github.com/user-attachments/assets/20470843-6f04-4e20-81d5-7aa918ca9a2b)
-
-<br><br>
-
-![Image](https://github.com/user-attachments/assets/c1d1a6ae-cf3d-4a71-871f-461928012002)
 
 <br><br>
-
 
 This project demonstrates how to train a Linear Regression model using both Batch Gradient Descent (GD) and Stochastic Gradient Descent (SGD). The implementation includes Python code, dataset, and detailed visualizations to illustrate convergence behavior, performance comparison, and optimization dynamics.
+
+<br><br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1d1a6ae-cf3d-4a71-871f-461928012002" />
+
+<br><br>
+
 
 Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
 
