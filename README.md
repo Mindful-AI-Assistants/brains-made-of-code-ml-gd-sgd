@@ -1,7 +1,7 @@
 
 <br>
 
-#  <p align="center"> 🧠  [Brains Made of Code]()
+#  <p align="center"> 🧠  [Brain Made of Code]()
 ### <p align="center"> Machine Learning Regression with Gradient Descent and Stochastic Optimization
 
 <br><br>
