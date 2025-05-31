@@ -15,6 +15,8 @@
 
 This project demonstrates how to train a Linear Regression model using both Batch Gradient Descent (GD) and Stochastic Gradient Descent (SGD). The implementation includes Python code, dataset, and detailed visualizations to illustrate convergence behavior, performance comparison, and optimization dynamics.
 
+Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
+
 <br><br>
 
 <p align="center">
@@ -23,7 +25,8 @@ This project demonstrates how to train a Linear Regression model using both Batc
 <br><br>
 
 
-Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
+### See alsso our Project APPLICATION OF MPC CONTROLS WITH DESCENDING GRADIENT AND PI IN A TAB CONVERTER USED IN ELECTRIC VEHICLE POWERTRAINS 
+#### 🚛 (Under Construtction)
 
 <br><br>
 
