@@ -32,7 +32,14 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 
 ##### ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
-- 
+- ࣪ 𖤐 Fabiana Campanari  
+- ࣪ 𖤐 Andson Ribeiro  
+- ࣪ 𖤐 Pedro Victor  
+- ࣪ 𖤐 Leonardo  
+
+☞ United by vision  
+☞ Guided by Jah  
+☞ Strength in unity ≽༏≼⊹  
 
 
 
