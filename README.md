@@ -30,7 +30,7 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 
 <br>
 
-#### ✌️ Meet the Crew — Under Jah’s Vibes🌿! 🟥🟨🟩  
+##### ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
 - 
 
