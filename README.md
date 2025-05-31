@@ -32,19 +32,20 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 
 ##### ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
-- ࣪ 𖤐 Fabiana Campanari  
-- ࣪ 𖤐 Andson Ribeiro  
+- ࣪ 𖤐 Andson Ribeiro 
+- ࣪ 𖤐 Fabiana 🚀 Campanari  
+- ࣪ 𖤐 Leonardo 
 - ࣪ 𖤐 Pedro Victor  
-- ࣪ 𖤐 Leonardo  
+
+<br>
 
 ☞ United by vision  
 ☞ Guided by Jah  
 ☞ Strength in unity ≽༏≼⊹  
 
 
-
-
 <br><br>
+
 
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
 
