@@ -33,7 +33,7 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 ##### ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
 - ࣪ 𖤐 Andson Ribeiro 
-- ࣪ 𖤐 [Fabiana 🚀 Campanari]()  
+- ࣪ 𖤐 [Fabiana 🚀 Campanari](https://github.com/FabianaCampanari)  
 - ࣪ 𖤐 Leonardo 
 - ࣪ 𖤐 Pedro Victor  
 
