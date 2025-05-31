@@ -28,6 +28,15 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 ### See alsso our Project [APPLICATION OF MPC CONTROLS WITH DESCENDING GRADIENT AND PI IN A TAB CONVERTER USED IN ELECTRIC VEHICLE POWERTRAINS](https://github.com/Mindful-AI-Assistants/brains-made-of-code-ml-gd-sgd/tree/c23e6b6b7dc47832b7ab32aedfd2f3815e5cdbd3/Projec-APPLICATION%20OF%20MPC%20CONTROLS%20WITH%20DESCENDING%20GRADIENT%20AND%20PI%20IN%20A%20TAB%20CONVERTER%20USED%20IN%20ELECTRIC%20VEHICLE%20POWERTRAINS) 
 #### 🚛 (Under Construtction)
 
+<br>
+
+#### Our Crew
+
+- 
+
+
+
+
 <br><br>
 
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
