@@ -443,7 +443,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 ## Reference
 
 - Content derived from [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf).
-- [Application of MPC controls with descending gradient and PI in a TAB converter used in electric vehicle powertrains]() by Atílio Caliari de Lima,PHD.
+- [Application of MPC controls with descending gradient and PI in a TAB converter used in electric vehicle powertrains](https://github.com/Mindful-AI-Assistants/brains-made-of-code-ml-gd-sgd/blob/c64e25ed0edf8aa7eed48f0627299f12db45fb2e/project_Predictive%2C%20PI%2C%20and%20Gradient%20Descent%20Control%20in%20TAB%20Converters%20for%20Electric%20Vehicles/Application%20of%20MPC%20controls%20with%20descending%20gradient%20and%20pi%20in%20a%20tab%20converter%20used%20in%20electric%20vehicle%20powertrains.pdf) by Atílio Caliari de Lima,PHD.
 
 
 <br><br>
