@@ -412,16 +412,15 @@ While the document mentions sigmoid and tanh, it is useful to note:
 - NVIDEA Building a Brain Course
 - Neuralearn Courses
 
+<br><br>
 
-#
 
 ## See alsso our Project:
 #### [Predictive, PI, and Gradient Descent Control in TAB Converters for Electric Vehicles](https://github.com/Mindful-AI-Assistants/brains-made-of-code-ml-gd-sgd/tree/c23e6b6b7dc47832b7ab32aedfd2f3815e5cdbd3/Projec-APPLICATION%20OF%20MPC%20CONTROLS%20WITH%20DESCENDING%20GRADIENT%20AND%20PI%20IN%20A%20TAB%20CONVERTER%20USED%20IN%20ELECTRIC%20VEHICLE%20POWERTRAINS) 
 #### 🚛 (Under Construtction)
 
-#
-
 <br>
+
 
 ## ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
@@ -432,14 +431,20 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
-➣ United by vision  
-➢ Guided by Jah  
+➣ United by vision  <br>
+➢ Guided by Jah  <br>
 ➣ Strength in unity ≽༏≼⊹  
 
 
-<br><br>
-
 <br>
+
+## Reference
+
+- Content derived from [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf).
+- [Application of MPC controls with descending gradient and PI in a TAB converter used in electric vehicle powertrains]() by Atílio Caliari de Lima,PHD.
+
+
+<br><br>
 
 ##  Feel Free to [Reach Out:]()
 
