@@ -431,8 +431,10 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
-➣ United by vision  <br>
-➢ Guided by Jah  <br>
+➣ United by vision
+
+➢ Guided by Jah 
+
 ➣ Strength in unity ≽༏≼⊹  
 
 
