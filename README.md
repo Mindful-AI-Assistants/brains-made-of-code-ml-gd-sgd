@@ -424,10 +424,10 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 ##### ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
-- ࣪ 𖤐 Andson Ribeiro 
+- ࣪ 𖤐 [Andson Ribeiro](https://github.com/andsonandreribeiro09) 
 - ࣪ 𖤐 [Fabiana 🚀 Campanari](https://github.com/FabianaCampanari)  
 - ࣪ 𖤐 Leonardo 
-- ࣪ 𖤐 [Pedro 🛰️ Victor](https://github.com/ppvyctor) 
+- ࣪ 𖤐 [Pedro 🛰️ Vyctor Almeida](https://github.com/ppvyctor) 
 
 <br>
 
