@@ -427,7 +427,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 - ࣪ 𖤐 Andson Ribeiro 
 - ࣪ 𖤐 [Fabiana 🚀 Campanari](https://github.com/FabianaCampanari)  
 - ࣪ 𖤐 Leonardo 
-- ࣪ 𖤐 Pedro Victor  
+- ࣪ 𖤐 [Pedro 🛰️ Victor](https://github.com/ppvyctor) 
 
 <br>
 
