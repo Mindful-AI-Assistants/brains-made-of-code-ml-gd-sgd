@@ -1,7 +1,7 @@
 
 <br>
 
-#  <p align="center"> 🧠  [Brain]() Made of Code, [Created]() with [Heart]() ❤︎🤍
+#  <p align="center"> 🧠  [Brain]() Made of Code, [Created]() with [Heart]() ❤︎
 ### <p align="center"> Machine Learning Regression with Gradient Descent and Stochastic Optimization
 
 <br><br>
