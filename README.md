@@ -1,10 +1,11 @@
 
 <br>
 
-#  <p align="center"> 🧠  [Brain Made of Code]()
+#  <p align="center"> 🧠  [Brain Made of Code]() and [Heart]()
 ### <p align="center"> Machine Learning Regression with Gradient Descent and Stochastic Optimization
 
 <br><br>
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/20470843-6f04-4e20-81d5-7aa918ca9a2b" width="450"/>
