@@ -5,7 +5,7 @@ Django==5.1.7
 
 # Data Manipulation Libraries:
 numpy==2.2.3
-pandas==2.2.3
+pandas==2.3.0
 
 # Data Visualization Libraries:
 matplotlib==3.10.1
@@ -16,9 +16,9 @@ scipy==1.15.2
 scikit-learn==1.6.1
 
 # Machine Learning Libraries:
-tensorflow==2.18.1
+tensorflow==2.19.0
 keras==3.10.0
-tensorflow==2.18.1
+tensorflow==2.19.0
 keras==3.10.0
 
 
@@ -28,7 +28,7 @@ spacy==3.8.7
 
 # Web Scraping Libraries:
 beautifulsoup4==4.13.4
-requests==2.32.3
+requests==2.32.4
 
 # Database Libraries:
 sqlalchemy==2.0.41
