@@ -426,11 +426,17 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 ## ✌️ Meet the Crew — Under Jah’s Vibes! 🟥🟨🟩  
 
-<br>
+<br><br>
+
 
 <!--
 π is the most famous number in the world. It is a irrational number, meaning it cannot be written exactly as a ratio of two integers. However, one can still approximate it by a ratio!
 -->
+
+https://github.com/user-attachments/assets/469dede4-7681-42e5-b91c-e4391317ecab
+
+<br><br>
+
 
 
 - ࣪ 𖤐 [Andson Ribeiro](https://github.com/andsonandreribeiro09) 
