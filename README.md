@@ -412,9 +412,11 @@ $y_j^{(1)} = \tanh(u_j^{(1)})$
 
 In gradient descent training, the algorithm updates weights to reduce error by following the gradient of the cost function. However, the cost function may have multiple local maxima or minima. 
 
-- **Local Maximum:** A point where the cost function has a peak relative to nearby points but is not the absolute highest point globally.
-- Gradient descent can get "stuck" in local maxima or minima, preventing the network from reaching the best possible solution.
-- Techniques such as random restarts, momentum, or advanced optimization algorithms help mitigate this problem.
+- [**Local Maximum:**]() A point where the cost function has a peak relative to nearby points but is not the absolute highest point globally.
+
+- Gradient descent can [get "stuck"]() in local maxima or minima, preventing the network from reaching the best possible solution.
+
+- Techniques such as [random restarts](), [momentum](), or [advanced optimization algorithms]() help mitigate this problem.
 
 
 <br>
@@ -423,19 +425,29 @@ In gradient descent training, the algorithm updates weights to reduce error by f
 
 Artificial Neural Networks, especially perceptrons and MLPs, are widely used in various domains due to their adaptability and ability to model complex nonlinear relationships.
 
+<br>
+
 ### [Strengths]()
 
 - Ability to learn from examples and generalize to unseen data.
+
 - Fault tolerance and robustness to noisy inputs.
+
 - Flexibility to model complex, nonlinear functions.
+
 - Parallel processing capability.
+
+<br>
 
 ### [Weaknesses]()
 
 - Training can be computationally expensive, especially for large networks.
+
 - Susceptible to getting stuck in local minima or maxima.
+
 - Requires careful tuning of hyperparameters (learning rate, number of neurons, layers).
-- Lack of interpretability compared to simpler models.
+
+Lack of interpretability compared to simpler models.
 
 
 <br>
@@ -447,9 +459,13 @@ Artificial Neural Networks, especially perceptrons and MLPs, are widely used in 
 The learning rate $\eta$ controls the step size during weight updates:
 
 - If $\eta$ is too large, the training may overshoot minima and fail to converge.
+
 - If $\eta$ is too small, training will be very slow and may get stuck in local minima.
+
 - Adaptive learning rate methods (e.g., learning rate decay, Adam optimizer) can improve convergence.
 
+
+<br>
 
 ### [Activation Functions]()
 
@@ -466,6 +482,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 ### [Overfitting and Regularization]()
 
 - Neural networks with too many parameters can overfit training data, performing poorly on unseen data.
+
 - Techniques such as early stopping, dropout, and L2 regularization help improve generalization.
 
 
@@ -473,6 +490,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 ### [Batch vs. Online Learning]()
 
 - The document discusses iterative weight updates per sample (online/stochastic gradient descent).
+
 - In practice, **batch** or **mini-batch** gradient descent is often used for computational efficiency and stability.
 
 
@@ -480,7 +498,9 @@ While the document mentions sigmoid and tanh, it is useful to note:
 ### [Practical Considerations]()
 
 - Data preprocessing (normalization, encoding) is crucial for effective training.
+
 - Initialization of weights affects convergence speed and final performance.
+
 - Monitoring training with validation sets helps detect overfitting.
 
 
@@ -488,7 +508,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
  # [Algorithms]()
 
-### [Gradient Descent]()
+## [Gradient Descent]()
 
 Gradient Descent is a mathematical optimization method primarily used for minimizing differentiable multivariate functions. It is a first-order iterative algorithm that adjusts model parameters to find the minimum value of a function, typically representing an error or cost to minimize.
 
@@ -499,22 +519,22 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
-### [Elastic Net]()
+## [Elastic Net]()
 
 Elastic Net is a regularization algorithm that combines L1 and L2 penalties to improve the performance of linear regression models, particularly when many variables are correlated. It helps prevent overfitting and performs automatic feature selection, making it a powerful tool for machine learning modeling.
 
 
 <br>
 
-### [Other Algorithms Used to Train Machine Learning Models]()
+## [Other Algorithms Used to Train Machine Learning Models]()
 
 - [**Batch Gradient Descent:**]() Computes the gradient using the entire dataset in each iteration, providing stable updates but slower on large datasets.
 
-- **Mini-batch Gradient Descent:** A compromise between batch and stochastic methods, using small batches of data to compute the gradient each step.
+- [**Mini-batch Gradient Descent:**]() A compromise between batch and stochastic methods, using small batches of data to compute the gradient each step.
 
-- **Adam (Adaptive Moment Estimation):** An algorithm combining momentum and adaptive learning rates to improve convergence and training efficiency, especially in deep neural networks.
+- [**Adam (Adaptive Moment Estimation):**]() An algorithm combining momentum and adaptive learning rates to improve convergence and training efficiency, especially in deep neural networks.
 
-- **RMSProp:** Adapts the learning rate for each parameter, useful to accelerate training and avoid oscillations.
+- [**RMSProp:**]() Adapts the learning rate for each parameter, useful to accelerate training and avoid oscillations.
 
 
 
