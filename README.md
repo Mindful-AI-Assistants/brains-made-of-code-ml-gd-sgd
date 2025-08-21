@@ -508,13 +508,47 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
  # [Algorithms]()
 
-## [Gradient Descent]()
+## 1.[Gradient Descent]()
 
 Gradient Descent is a mathematical optimization method primarily used for minimizing differentiable multivariate functions. It is a first-order iterative algorithm that adjusts model parameters to find the minimum value of a function, typically representing an error or cost to minimize.
 
 The way gradient descent works can be explained as follows: Imagine standing on top of a hill wanting to reach the lowest point in a valley. In algorithm terms, you start with initial parameter values and calculate the slope (gradient) of the cost function with respect to these parameters. This slope shows the steepest ascent direction. To minimize the function, you take a step in the opposite direction, "descending the slope" toward the lowest point.
 
 These steps are repeated iteratively, adjusting the model parameters opposite to the gradient direction until the algorithm converges to the minimum. The step size is controlled by a learning rate that defines how big the adjustments are at each iteration.
+
+
+<br>
+
+## [Gradient Descent - Step by Step Code}()
+
+<br>
+
+### Cell 1 - Setup and Data Generation
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate synthetic data
+
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
+
+# Add bias term (intercept)
+
+X_b = np.c_[np.ones((100, 1)), X]
+```
+
+<br>
+
+
+
+
+
+
+
+
 
 
 <br>
