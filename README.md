@@ -499,6 +499,12 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
+### [Elastic Net]()
+
+Elastic Net is a regularization algorithm that combines L1 and L2 penalties to improve the performance of linear regression models, particularly when many variables are correlated. It helps prevent overfitting and performs automatic feature selection, making it a powerful tool for machine learning modeling.
+
+
+<br>
 
 
 
@@ -556,6 +562,42 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ## [References]()
