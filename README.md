@@ -615,8 +615,7 @@ print("Theta after SGD:", theta)
 
 ## 3. [Elastic Net Regularization]()
 
-Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties to prevent overfitting and handle correlated features, providing feature selection and coefficient shrinkage in regression models.
-
+Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties to improve the performance of linear regression models, particularly when many variables are correlated. It helps prevent overfitting and performs automatic feature selection, making it a powerful tool for machine learning modeling.
 <br>
 
 #### [Cell 1]() - Data Splitting
@@ -631,6 +630,42 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 <br>
 
+#### [Cell 2]() - Elastic Net Model Training and Evaluation
+
+<br>
+
+```python
+
+from sklearn.linear_model import ElasticNet
+from sklearn.metrics import mean_squared_error
+
+elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.7, max_iter=1000)
+elastic_net.fit(X_train, y_train.ravel())
+
+y_pred = elastic_net.predict(X_test)
+mse = mean_squared_error(y_test, y_pred)
+
+print(f"ElasticNet Coefficients: {elastic_net.coef_}")
+print(f"ElasticNet Intercept: {elastic_net.intercept_}")
+print(f"Mean Squared Error: {mse}")
+```
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -667,12 +702,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 
 <br>
-
-## [Elastic Net]()
-
-Elastic Net is a regularization algorithm that combines L1 and L2 penalties to improve the performance of linear regression models, particularly when many variables are correlated. It helps prevent overfitting and performs automatic feature selection, making it a powerful tool for machine learning modeling.
-
-
 <br>
 
 ## [Other Algorithms Used to Train Machine Learning Models]()
