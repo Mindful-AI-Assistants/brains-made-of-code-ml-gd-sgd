@@ -239,15 +239,14 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   a = \sum_{i=1}^{p} w_i X_i
   $$
 
-
-  $a = \sum_{i=1}^{p} w_i X_i$
-
 <br>
   
 
 - [**Output:**]()
+
+  <br>
   
-  $y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
+  $\Huge y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
   
 
 <br>
