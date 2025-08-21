@@ -519,11 +519,16 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
-## [Gradient Descent - Step by Step Code}()
+## [Gradient Descent (**Batch**) - Step by Step Code]()
+
+Gradient Descent is an iterative algorithm to minimize a cost function by adjusting parameters opposite to the gradient direction. Batch Gradient Descent calculates the gradient using the entire dataset each step, resulting in stable but sometimes slow parameter updates.
+
 
 <br>
 
-### Cell 1 - Setup and Data Generation
+### [Cell 1]() - Setup and Data Generation
+
+<br>
 
 
 ```python
@@ -541,6 +546,45 @@ X_b = np.c_[np.ones((100, 1)), X]
 ```
 
 <br>
+
+### [Cell 2]() - Gradient Descent Algorithm
+
+<br>
+
+```python
+learning_rate = 0.1
+n_iterations = 1000
+m = 100
+theta = np.random.randn(2,1)  \# random initialization
+
+for iteration in range(n_iterations):
+gradients = 2/m * X_b.T.dot(X_b.dot(theta) - y)
+theta = theta - learning_rate * gradients
+```
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
