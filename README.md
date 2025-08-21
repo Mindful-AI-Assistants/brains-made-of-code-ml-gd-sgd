@@ -59,11 +59,14 @@ At birth, a child's brain has a large structure and the ability to develop its o
 
 ### Each artificial neuron receives input signals $X_1, X_2, ..., X_p$ (binary or real values), each multiplied by a weight $w_1, w_2, ..., w_p$ (real values). The neuron computes a weighted sum (activity level):
 
+<br>
+
 $$
 \Huge
 a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
 $$
 
+<br>
 
 ```latex
 \a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p\
@@ -71,7 +74,9 @@ $$
 
 <br>
 
-### The output $y$ is determined by an activation function, such as:
+### [The output $y$ is determined by an activation function, such as:]()
+
+<br>
 
 $$
 \Huge
@@ -150,7 +155,7 @@ $$
 
 <br>
 
-The goal is to minimize the cost function (performance index):
+### [The goal is to minimize the cost function (performance index):]()
 
 <br>
 
@@ -161,7 +166,7 @@ $$
 
 <br>
 
-Weights are updated as:
+### [Weights are updated as:]()
 
 <br>
 
@@ -225,16 +230,22 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 <br>
 
-- [**Neuron Activation:****]()
+- [**Neuron Activation:**]()
 
 <br>  
   
+  $$
+  \Huge
+  a = \sum_{i=1}^{p} w_i X_i
+  $$
+
+
   $a = \sum_{i=1}^{p} w_i X_i$
 
 <br>
   
 
-- [**Output:****]()
+- [**Output:**]()
   
   $y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
   
@@ -242,7 +253,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 <br>
   
 
-- [**Error Calculation:****]()
+- [**Error Calculation:**]()
   
   $e_k(n) = d_k(n) - y_k(n)$
   
