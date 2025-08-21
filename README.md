@@ -584,6 +584,23 @@ plt.show()
 
 ## 2. [Stochastic Gradient Descent (SGD)]()
 
+Stochastic Gradient Descent updates parameters based on a single random sample per iteration. This yields noisier but faster updates, suitable for large datasets and deep learning models.
+
+<br>
+
+### [Cell 1]( - SGD Implementation
+
+<br>
+
+
+
+
+
+
+
+
+
+
 
 
 
