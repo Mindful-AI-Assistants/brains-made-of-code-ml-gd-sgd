@@ -7,6 +7,10 @@
 <br><br>
 
 
+#### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
+
+<br><br>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/20470843-6f04-4e20-81d5-7aa918ca9a2b" width="450"/>
 </p>
@@ -28,9 +32,7 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 <br><br>
 
 
-#### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
 
-<br><br>
       
 # [Artificial Neural Networks – Gradient Descent]()
 
