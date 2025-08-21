@@ -79,6 +79,8 @@ y =
 \end{cases}
 $$
 
+<br>
+
 ```latex
 y =
 \begin{cases}
@@ -87,7 +89,7 @@ y =
 \end{cases}
 ```
   
-<br>
+<br><br>
 
 
 ## Key Benefits of ANNs
@@ -98,6 +100,8 @@ y =
 - Generalization
 - Contextual information processing
 - Input-output mapping
+
+<br>
 
 ## Application Areas
 
@@ -118,6 +122,8 @@ ANNs operate in two main phases:
 1. **Training Phase:** The network learns by adjusting its free parameters (weights) to perform a specific function.
 2. **Application Phase:** The trained network is used for its intended purpose (e.g., pattern or image classification).
 
+<br>
+
 ## The learning process involves:
 
 1. Stimulation by the environment (input).
@@ -132,17 +138,27 @@ Learning is governed by a set of pre-established rules (learning algorithm) and 
 
 The output of neuron $k$ at iteration $n$ is $y_k(n)$, and the desired response is $d_k(n)$. The error signal is:
 
+<br>
+
 $$
 e_k(n) = d_k(n) - y_k(n)
 $$
 
+<br>
+
 The goal is to minimize the cost function (performance index):
+
+<br>
 
 $$
 E(n) = \frac{1}{2} e_k^2(n)
 $$
 
+<br>
+
 Weights are updated as:
+
+<br>
 
 $$
 w_{kj}(n+1) = w_{kj}(n) + \Delta w_{kj}(n)
@@ -150,7 +166,7 @@ $$
 
 <br>
 
-# The Perceptron
+# [The Perceptron]()
 
 The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It uses supervised learning and error correction to adjust the weight vector. For a perceptron with two inputs and a bias:
 
@@ -158,7 +174,7 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 
 <br>
 
-## Nonlinearities and Activation Functions
+## [Nonlinearities and Activation Functions]()
 
 - Nonlinearities are inherent in most real-world problems.
 - Incorporated through nonlinear activation functions (e.g., sigmoid, tanh) and multiple layers.
@@ -166,7 +182,7 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 
 <br>
 
-## MLP (MultiLayer Perceptron)
+## [MLP (MultiLayer Perceptron)]()
 
 - Composed of neurons with nonlinear activation functions in intermediate (hidden) layers.
 - Only the output layer receives a desired output during training.
@@ -174,51 +190,84 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 
 <br>
 
-# Two-Layer Perceptron Architecture
+## [Two-Layer Perceptron Architecture]()
 
 A two-layer perceptron (MLP with one hidden layer and one output layer) can approximate any function, linear or not (Cybenko, 1989). 
 
-- **Layer 1 (Hidden/Intermediate):** Each neuron contributes lines (hyperplanes) to form surfaces in input space, "linearizing" the features.
-- **Layer 2 (Output):** Neurons combine these lines to form convex regions, enabling complex decision boundaries.
+- [**Layer 1 (Hidden/Intermediate):**]() Each neuron contributes lines (hyperplanes) to form surfaces in input space, "linearizing" the features.
+- [**Layer 2 (Output):**]() Neurons combine these lines to form convex regions, enabling complex decision boundaries.
 
-**Number of Neurons:**  
+
+<br>
+
+[**Number of Neurons:**]()
+
 - The generalization capacity of the network increases with the number of neurons.
 - Empirically, 3–5 neurons per layer strike a good balance between modeling power and computational cost.
 
-**Layer Types:**
+<br>
+
+[**Layer Types:**]()
+
 - **Input Layer:** Receives input patterns.
 - **Hidden Layer(s):** Main processing; feature extraction.
 - **Output Layer:** Produces the final result.
 
 <br>
 
-## Main Concepts and Key Formulas
+## [Main Concepts and Key Formulas]()
 
-- **Neuron Activation:**
+<br>
+
+- [**Neuron Activation:****]()
+
+<br>  
   
   $a = \sum_{i=1}^{p} w_i X_i$
+
+<br>
   
-- **Output:**
+
+- [**Output:****]()
   
   $y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
   
-- **Error Calculation:**
+
+<br>
+  
+
+- [**Error Calculation:****]()
   
   $e_k(n) = d_k(n) - y_k(n)$
   
-- **Cost Function (Mean Squared Error):**
+
+<br>
   
+
+
+- [**Cost Function (Mean Squared Error):**]()
+
+<br>
+  
+
   $E(n) = \frac{1}{2} e_k^2(n)$
+
+<br>
   
-- **Weight Update (Gradient Descent):**
+  
+- [**Weight Update (Gradient Descent):**]()
+
+
   
   $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
   
-- **Backpropagation for Output Layer:**
+
+- [**Backpropagation for Output Layer:**]()
 
   $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
-- **Backpropagation for Hidden Layer:**
+
+[- **Backpropagation for Hidden Layer:**]()
 
 
 ```latex
@@ -227,9 +276,10 @@ delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
 
 <br>
 
-## Training: Two-Phase Process
 
-### 1. Forward Phase
+## [Training](): Two-Phase Process
+
+### [1](). Forward Phase
 
 - Initialize learning rate $\eta$ and weight matrix $w$ with random values.  
 - Present input to the first layer.  
@@ -237,7 +287,8 @@ delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
 - The final output is compared to the desired output.  
 - The error for each output neuron is calculated.
 
-**Example Calculation:**
+
+### [**Example Calculation:**]()
 
 ### Forward Computation Example
 
@@ -277,7 +328,7 @@ $$</p>
 
 <br>
 
-### 2. Backward Phase (Backpropagation)
+### [2](). Backward Phase (Backpropagation)
 
 - Start from the output layer.  
 - Each node adjusts its weight to reduce its error.  
@@ -299,9 +350,9 @@ $$</p>
 
 ## Example: Training a Two-Layer Perceptron
 
-1. **Initialize all weights randomly.**
-2. **Present an input vector $X$.**
-3. **Compute outputs for the first (hidden) layer:**
+[1](). **Initialize all weights randomly.**
+[2](). **Present an input vector $X$.**
+[3.]() **Compute outputs for the first (hidden) layer:**
    
 $u_j^{(1)} = \sum_i X_i w_{ji}^{(1)}$
 
@@ -309,26 +360,28 @@ $y_j^{(1)} = \tanh(u_j^{(1)})$
 
 
    
-4. **Compute output for the second (output) layer:**
+[4](). **Compute output for the second (output) layer:**
 
    $u^{(2)} = \sum_j y^{(1)}_j \cdot w^{(2)}_j$
 
    $y^{(2)} = \tanh(u^{(2)})$
 
-5. **Calculate error:**
+
+[5](). **Calculate error:**
 
    $e = d - y^{(2)}$
 
    $E = \frac{1}{2} e^2$
 
-6. **Backward phase:**
+
+[6](). **Backward phase:**
 
    - Compute $\delta^{(2)}$ and update output weights.
    - Compute $\delta^{(1)}$ for each hidden neuron and update hidden weights.
 
   <br>
 
-## Why Two Layers and 3–5 Neurons per Layer?
+## [Why Two Layers and 3–5 Neurons per Layer?]()
 
 - **Theoretical Power:** Two-layer MLPs can approximate any continuous function (universal approximation theorem).
 - **Practical Simplicity:** Most real-world problems rarely require more than two layers.
@@ -337,7 +390,7 @@ $y_j^{(1)} = \tanh(u_j^{(1)})$
 
 <br>
 
-## Local Maximum (Local Maxima)
+## [Local Maximum (Local Maxima)]()
 
 In gradient descent training, the algorithm updates weights to reduce error by following the gradient of the cost function. However, the cost function may have multiple local maxima or minima. 
 
@@ -348,18 +401,18 @@ In gradient descent training, the algorithm updates weights to reduce error by f
 
 <br>
 
-## Usage
+## [Usage]()
 
 Artificial Neural Networks, especially perceptrons and MLPs, are widely used in various domains due to their adaptability and ability to model complex nonlinear relationships.
 
-### Strengths
+### [Strengths]()
 
 - Ability to learn from examples and generalize to unseen data.
 - Fault tolerance and robustness to noisy inputs.
 - Flexibility to model complex, nonlinear functions.
 - Parallel processing capability.
 
-### Weaknesses
+### [Weaknesses]()
 
 - Training can be computationally expensive, especially for large networks.
 - Susceptible to getting stuck in local minima or maxima.
@@ -369,7 +422,7 @@ Artificial Neural Networks, especially perceptrons and MLPs, are widely used in 
 
 <br>
 
-## Additional Relevant Points
+## [Additional Relevant Points]()
 
 ### Learning Rate (η) Importance
 
@@ -379,27 +432,34 @@ The learning rate $\eta$ controls the step size during weight updates:
 - If $\eta$ is too small, training will be very slow and may get stuck in local minima.
 - Adaptive learning rate methods (e.g., learning rate decay, Adam optimizer) can improve convergence.
 
-### Activation Functions
+
+### [Activation Functions]()
 
 While the document mentions sigmoid and tanh, it is useful to note:
 
-- **ReLU (Rectified Linear Unit):**  
+- [**ReLU (Rectified Linear Unit):**]()  
   Widely used in modern neural networks for faster convergence and to mitigate vanishing gradient problems.
   
-- **Softmax:**  
+- [**Softmax:**]()  
   Commonly used in output layers for multi-class classification problems.
 
-### Overfitting and Regularization
+
+
+### [Overfitting and Regularization]()
 
 - Neural networks with too many parameters can overfit training data, performing poorly on unseen data.
 - Techniques such as early stopping, dropout, and L2 regularization help improve generalization.
 
-### Batch vs. Online Learning
+
+
+### [Batch vs. Online Learning]()
 
 - The document discusses iterative weight updates per sample (online/stochastic gradient descent).
 - In practice, **batch** or **mini-batch** gradient descent is often used for computational efficiency and stability.
 
-### Practical Considerations
+
+
+### [Practical Considerations]()
 
 - Data preprocessing (normalization, encoding) is crucial for effective training.
 - Initialization of weights affects convergence speed and final performance.
@@ -408,7 +468,71 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
-## References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## [References]()
 
 - Content derived from [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf).
 - Classic works by McCulloch & Pitts, Hebb, Rosenblatt, Hopfield, Rumelhart, Hinton & Williams, and Cybenko.
