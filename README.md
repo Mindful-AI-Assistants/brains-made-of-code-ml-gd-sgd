@@ -55,11 +55,13 @@ At birth, a child's brain has a large structure and the ability to develop its o
   
 <br>
 
-## Artificial Neuron Model
+## [Artificial Neuron Mode]()
 
 ### Each artificial neuron receives input signals $X_1, X_2, ..., X_p$ (binary or real values), each multiplied by a weight $w_1, w_2, ..., w_p$ (real values). The neuron computes a weighted sum (activity level):
 
-$$a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
+$$
+\Huge
+a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
 $$
 
 
@@ -72,6 +74,7 @@ $$
 ### The output $y$ is determined by an activation function, such as:
 
 $$
+\Huge
 y =
 \begin{cases}
 1, & \text{if } a \geq t \\
