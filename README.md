@@ -506,7 +506,15 @@ Elastic Net is a regularization algorithm that combines L1 and L2 penalties to i
 
 <br>
 
+### [Other Algorithms Used to Train Machine Learning Models]()
 
+- [**Batch Gradient Descent:**]() Computes the gradient using the entire dataset in each iteration, providing stable updates but slower on large datasets.
+
+- **Mini-batch Gradient Descent:** A compromise between batch and stochastic methods, using small batches of data to compute the gradient each step.
+
+- **Adam (Adaptive Moment Estimation):** An algorithm combining momentum and adaptive learning rates to improve convergence and training efficiency, especially in deep neural networks.
+
+- **RMSProp:** Adapts the learning rate for each parameter, useful to accelerate training and avoid oscillations.
 
 
 
