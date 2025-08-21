@@ -486,10 +486,18 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
+ # [Algorithms]()
+
+### [Gradient Descent]()
+
+Gradient Descent is a mathematical optimization method primarily used for minimizing differentiable multivariate functions. It is a first-order iterative algorithm that adjusts model parameters to find the minimum value of a function, typically representing an error or cost to minimize.
+
+The way gradient descent works can be explained as follows: Imagine standing on top of a hill wanting to reach the lowest point in a valley. In algorithm terms, you start with initial parameter values and calculate the slope (gradient) of the cost function with respect to these parameters. This slope shows the steepest ascent direction. To minimize the function, you take a step in the opposite direction, "descending the slope" toward the lowest point.
+
+These steps are repeated iteratively, adjusting the model parameters opposite to the gradient direction until the algorithm converges to the minimum. The step size is controlled by a learning rate that defines how big the adjustments are at each iteration.
 
 
-
-
+<br>
 
 
 
