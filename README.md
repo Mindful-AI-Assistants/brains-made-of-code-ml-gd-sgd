@@ -248,20 +248,24 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
   <br>
   
-  $\Huge y = f(a)$, where $f$ is the activation function (e.g., sigmoid, tanh)
+  $\Huge y = f(a)$, [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
   
 
 <br>
   
 
 - [**Error Calculation:**]()
-  
-  $e_k(n) = d_k(n) - y_k(n)$
-  
+
+<br>
+
+  $$
+  \Huge
+  e_k(n) = d_k(n) - y_k(n)$
+  $$ 
+
 
 <br>
   
-
 
 - [**Cost Function (Mean Squared Error):**]()
 
