@@ -16,6 +16,8 @@
 
 This project demonstrates how to train a Linear Regression model using both Batch Gradient Descent (GD) and Stochastic Gradient Descent (SGD). The implementation includes Python code, dataset, and detailed visualizations to illustrate convergence behavior, performance comparison, and optimization dynamics.
 
+Also presents key optimization algorithms for machine learning with explanations followed by Python code split into individual cells. Each algorithm’s explanation precedes its corresponding step-by-step code cells, ready for direct copy-pasting into Jupyter Notebook or Google Colab.
+
 Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
 
 <br><br>
