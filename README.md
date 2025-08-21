@@ -519,7 +519,7 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
-## [Gradient Descent (**Batch**) - Step by Step Code]()
+## 1 - [Gradient Descent (**Batch**) - Step by Step Code]()
 
 Gradient Descent is an iterative algorithm to minimize a cost function by adjusting parameters opposite to the gradient direction. Batch Gradient Descent calculates the gradient using the entire dataset each step, resulting in stable but sometimes slow parameter updates.
 
@@ -582,7 +582,7 @@ plt.show()
 
 <br><br>
 
-## 2. [Stochastic Gradient Descent (SGD)]()
+## 2 [Stochastic Gradient Descent (SGD)]()
 
 Stochastic Gradient Descent updates parameters based on a single random sample per iteration. This yields noisier but faster updates, suitable for large datasets and deep learning models.
 
@@ -611,7 +611,28 @@ t += 1
 print("Theta after SGD:", theta)
 ```
 
+<br><br>
+
+## 3. [Elastic Net Regularization]()
+
+Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties to prevent overfitting and handle correlated features, providing feature selection and coefficient shrinkage in regression models.
+
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
