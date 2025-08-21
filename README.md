@@ -32,13 +32,13 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 
 <br><br>
       
-# Artificial Neural Networks – Gradient Descent
+# [Artificial Neural Networks – Gradient Descent]()
 
 This repository provides a comprehensive explanation of Artificial Neural Networks (ANNs), focusing on the perceptron and multilayer perceptron (MLP) architectures, and the Gradient Descent algorithm for training. The content is based on the [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf) document.
 
 <br>
 
-## Motivation
+## [Motivation]()
 
 The human brain processes information in a highly complex, nonlinear, and parallel way, which is fundamentally different from conventional digital computers. For example, tasks such as visual recognition (e.g., recognizing a familiar face in an unfamiliar scene) are performed by the brain in milliseconds, while much simpler tasks can take a conventional computer days to complete.
 
@@ -46,7 +46,7 @@ At birth, a child's brain has a large structure and the ability to develop its o
 
 <br>
 
-## Historical Context
+## [Historical Context]()
 
 - **McCulloch & Pitts (1943):** Introduced the first neural network models.
 - **Hebb (1949):** Developed the basic model of self-organization.
@@ -95,7 +95,7 @@ y =
 <br><br>
 
 
-## Key Benefits of ANNs
+## [Key Benefits of ANNs]()
 
 - Adaptability through learning
 - Ability to operate with partial knowledge
@@ -106,7 +106,7 @@ y =
 
 <br>
 
-## Application Areas
+## [Application Areas]()
 
 - Pattern classification
 - Clustering/categorization
@@ -118,7 +118,7 @@ y =
 
   <br>
 
-## Learning Process
+## [Learning Process]()
 
 ANNs operate in two main phases:
 
@@ -127,7 +127,7 @@ ANNs operate in two main phases:
 
 <br>
 
-## The learning process involves:
+## [The learning process involves:]()
 
 1. Stimulation by the environment (input).
 2. Modification of free parameters (weights) as a result.
@@ -137,13 +137,14 @@ Learning is governed by a set of pre-established rules (learning algorithm) and 
 
 <br>
 
-## Error Correction Learning
+## [Error Correction Learning]()
 
 The output of neuron $k$ at iteration $n$ is $y_k(n)$, and the desired response is $d_k(n)$. The error signal is:
 
 <br>
 
 $$
+\Huge
 e_k(n) = d_k(n) - y_k(n)
 $$
 
@@ -154,6 +155,7 @@ The goal is to minimize the cost function (performance index):
 <br>
 
 $$
+\Huge
 E(n) = \frac{1}{2} e_k^2(n)
 $$
 
@@ -164,6 +166,7 @@ Weights are updated as:
 <br>
 
 $$
+\Huge
 w_{kj}(n+1) = w_{kj}(n) + \Delta w_{kj}(n)
 $$
 
