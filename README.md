@@ -526,7 +526,7 @@ Gradient Descent is an iterative algorithm to minimize a cost function by adjust
 
 <br>
 
-### [Cell 1]() - Setup and Data Generation
+#### [Cell 1]() - Setup and Data Generation
 
 <br>
 
@@ -547,7 +547,7 @@ X_b = np.c_[np.ones((100, 1)), X]
 
 <br>
 
-### [Cell 2]() - Gradient Descent Algorithm
+#### [Cell 2]() - Gradient Descent Algorithm
 
 <br>
 
@@ -564,7 +564,7 @@ theta = theta - learning_rate * gradients
 
 <br>
 
-### [Cell 3]() - Output and Plotting
+#### [Cell 3]() - Output and Plotting
 
 <br>
 
@@ -588,7 +588,7 @@ Stochastic Gradient Descent updates parameters based on a single random sample p
 
 <br>
 
-### [Cell 1]() - SGD Implementation
+#### [Cell 1]() - SGD Implementation
 
 <br>
 
@@ -619,11 +619,17 @@ Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties to prevent overfitting 
 
 <br>
 
+#### [Cell 1]() - Data Splitting
 
+<br>
 
+```python
+from sklearn.model_selection import train_test_split
 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
 
-
+<br>
 
 
 
