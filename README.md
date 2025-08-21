@@ -652,6 +652,20 @@ print(f"Mean Squared Error: {mse}")
 
 <br><br>
 
+## 4. [Mini-batch Gradient Descent]()
+
+Mini-batch Gradient Descent is a compromise between batch and stochastic descent. It updates parameters using small random batches, accelerating convergence with reduced noise.
+
+<br>
+
+
+
+
+
+
+
+
+
 
 
 
