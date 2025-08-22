@@ -320,6 +320,13 @@ $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
 
 - [**Backpropagation for Output Layer:**]()
 
+$$
+\Huge
+\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)
+$$
+ 
+  
+  
   $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
 
