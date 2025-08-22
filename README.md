@@ -896,6 +896,21 @@ Common in deep learning training.
 <br>
 
 ```python
+theta = np.random.randn(2,1)
+n_iterations = 50
+batch_size = 20
+m = 100
+
+for iteration in range(n_iterations):
+indices = np.random.permutation(m)
+for start_idx in range(0, m, batch_size):
+end_idx = start_idx + batch_size
+X_batch = X_b[indices[start_idx:end_idx]]
+y_batch = y[indices[start_idx:end_idx]]
+gradients = 2/len(X_batch) * X_batch.T.dot(X_batch.dot(theta) - y_batch)
+theta = theta - learning_rate * gradients
+
+print("Theta (Mini-batch):", theta)
 ```
 
 <br><br>
