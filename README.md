@@ -98,9 +98,11 @@ $$
 \a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p\
 ```
 
-<br>
+<br><br>
+  
+#
 
-### [The output $y$ is determined by an activation function, such as:]()
+### [The output y is determined by an activation function, such as:]()
 
 <br>
 
@@ -179,7 +181,9 @@ $$
 e_k(n) = d_k(n) - y_k(n)
 $$
 
-<br>
+<br><br>
+  
+#
 
 ### [The goal is to minimize the cost function (performance index):]()
 
@@ -190,7 +194,9 @@ $$
 E(n) = \frac{1}{2} e_k^2(n)
 $$
 
-<br>
+<br><br>
+  
+#
 
 ### [Weights are updated as:]()
 
@@ -201,7 +207,9 @@ $$
 w_{kj}(n+1) = w_{kj}(n) + \Delta w_{kj}(n)
 $$
 
-<br>
+<br><br>
+  
+
 
 # [The Perceptron]()
 
