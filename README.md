@@ -641,7 +641,27 @@ pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
 > - **tensorflow-datasets**: Loading datasets like MNIST easily
 
 
+<br>
 
+
+## 0. Understanding Tensors and Loading MNIST Dataset
+
+### 0.1 What is a Tensor?
+
+### [**Concept:**]()  
+
+A tensor generalizes scalars (0-D), vectors (1-D), and matrices (2-D) to n-dimensional arrays. Data in neural networks (inputs, weights, activations) are represented as tensors.  
+Understanding tensors is essential for deep learning frameworks.
+
+<br>
+
+### [**Use Case]()  
+
+Manages multi-dimensional data like images (3D tensors with height, width, channels) or batches of images (4D tensors).
+
+<br>
+
+### [**Code:**]()
 
 
 
