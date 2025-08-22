@@ -653,13 +653,10 @@ pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
 A tensor generalizes scalars (0-D), vectors (1-D), and matrices (2-D) to n-dimensional arrays. Data in neural networks (inputs, weights, activations) are represented as tensors.  
 Understanding tensors is essential for deep learning frameworks.
 
-<br>
-
 ### - [**Use Case]()  
 
 Manages multi-dimensional data like images (3D tensors with height, width, channels) or batches of images (4D tensors).
 
-<br>
 
 ### - [**Code:**]()
 
@@ -697,19 +694,17 @@ print("Shape:", tensor_3d.shape)
 
 ### 0.2 [Loading MNIST Dataset from TensorFlow Datasets]()
 
-### [**Concept:**]()  
+### - [**Concept:**]()  
 
 MNIST dataset can be streamed using TensorFlow Datasets, cached automatically without manual download management.
 
-<br>
 
-### [**Use Case:**]()  
+### - [**Use Case:**]()  
 
 Practice and benchmark image classification models.
 
-<br>
 
-### [**Code:**]()
+### - [**Code:**]()
 
 <br>
 
@@ -740,19 +735,17 @@ plt.show()
 
 ## 1. [Artificial Neuron Model]()
 
-### [**Concept:**]()  
+### - [**Concept:**]()  
 
 Computes weighted sum of inputs followed by a nonlinear activation function (e.g., sigmoid).
 
-<br>
 
-### [**Use Case:**]()  
+### - [**Use Case:**]()  
 
 Fundamental computation unit for classification.
 
-<br>
 
-### [**Code:**]() -  with MNIST-like input shape simplified to vector
+### - [**Code:**]() -  with MNIST-like input shape simplified to vector
 
 <br>
 
@@ -788,19 +781,17 @@ plt.show()
 
 ## 2. [Gradient Descent (Batch Gradient Descent)]()
 
-### [**Concept:**]()  
+### -  [**Concept:**]()  
 
 Updates weights by calculating gradients over the entire training dataset.
 
-<br>
 
-### [**Use Case:**]()  
+### - [**Use Case:**]()  
 
 Stable, but computationally expensive for large datasets.
 
-<br>
 
-### [**Code:**]()
+### - [**Code:**]()
 
 <br>
 
@@ -841,19 +832,15 @@ plt.show()
 
 ## 3. [Stochastic Gradient Descent (SGD)]()
 
-### [**Concept:**]()  
+### - [**Concept:**]()  
 
 Updates weights using gradients from one training sample at a time, adding noise but enabling faster updates.
 
-<br>
-
-### [**Use Case:**]()  
+### - [**Use Case:**]()  
 
 Useful for large datasets or online learning.
 
-<br>
-
-### [**Code:**]()
+### - [**Code:**]()
 
 <br>
 
