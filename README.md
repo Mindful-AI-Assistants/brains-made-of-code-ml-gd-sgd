@@ -222,7 +222,9 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 ## [Nonlinearities and Activation Functions]()
 
 - Nonlinearities are inherent in most real-world problems.
+
 - Incorporated through nonlinear activation functions (e.g., sigmoid, tanh) and multiple layers.
+
 - MLPs use sigmoid functions in hidden layers and linear functions in the output layer.
 
 <br>
@@ -230,7 +232,9 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 ## [MLP (MultiLayer Perceptron)]()
 
 - Composed of neurons with nonlinear activation functions in intermediate (hidden) layers.
+
 - Only the output layer receives a desired output during training.
+
 - The error for hidden layers is estimated by the effect they cause on the output error (backpropagation).
 
 <br>
@@ -240,6 +244,7 @@ The perceptron, proposed by Rosenblatt (1958), is the simplest type of ANN. It u
 A two-layer perceptron (MLP with one hidden layer and one output layer) can approximate any function, linear or not (Cybenko, 1989). 
 
 - [**Layer 1 (Hidden/Intermediate):**]() Each neuron contributes lines (hyperplanes) to form surfaces in input space, "linearizing" the features.
+
 - [**Layer 2 (Output):**]() Neurons combine these lines to form convex regions, enabling complex decision boundaries.
 
 
@@ -248,15 +253,18 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 [**Number of Neurons:**]()
 
 - The generalization capacity of the network increases with the number of neurons.
+
 - Empirically, 3–5 neurons per layer strike a good balance between modeling power and computational cost.
 
 <br>
 
 [**Layer Types:**]()
 
-- **Input Layer:** Receives input patterns.
-- **Hidden Layer(s):** Main processing; feature extraction.
-- **Output Layer:** Produces the final result.
+- [**Input Layer:**]() Receives input patterns.
+
+- [**Hidden Layer(s):***]() Main processing; feature extraction.
+
+- [**Output Layer:***]() Produces the final result.
 
 <br>
 
@@ -281,7 +289,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - [**Output:**]()
 
-  <br>
+<br>
   
 $$
 \Huge y = f(a)
@@ -372,12 +380,16 @@ $$
 
 <br>
 
-### [1](). Forward Phase
+### [1](). Forward Phase*
 
 - Initialize learning rate $\eta$ and weight matrix $w$ with random values.  
+
 - Present input to the first layer.  
+
 - Each neuron in layer $i$ computes its output, which is passed to the next layer.  
+
 - The final output is compared to the desired output.  
+
 - The error for each output neuron is calculated.
 
 
@@ -416,7 +428,7 @@ $$
   
 <br>
 
-- etc.
+- etc...
 
 
 <br><br>
