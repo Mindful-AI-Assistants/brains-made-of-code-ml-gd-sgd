@@ -295,6 +295,10 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 <br>
   
+$$
+\Huge
+E(n) = \frac{1}{2} e_k^2(n
+$$
 
   $E(n) = \frac{1}{2} e_k^2(n)$
 
