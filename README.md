@@ -950,8 +950,24 @@ General-purpose nonlinear function approximation with hidden layers.
 
 <br>
 
+```python
+import numpy as np
 
+X = np.random.rand(785)  \# example input with bias
+w_hidden = np.random.rand(2, 785)  \# two neurons in hidden layer
 
+u_hidden = np.dot(w_hidden, X)
+y_hidden = np.tanh(u_hidden)
+
+w_output = np.random.rand(2)
+u_output = np.dot(w_output, y_hidden)
+y_output = np.tanh(u_output)
+
+print("Hidden outputs:", y_hidden)
+print("Network output:", y_output)
+```
+
+<br><br>
 
 
 
