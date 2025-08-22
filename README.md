@@ -102,7 +102,7 @@ $$
   
 #
 
-### [The output $y$ is determined by an activation function, such as:]()
+### [The output y is determined by an activation function, such as:]()
 
 <br>
 
