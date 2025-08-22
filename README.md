@@ -98,7 +98,9 @@ $$
 \a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p\
 ```
 
-<br>
+<br><br>
+  
+#
 
 ### [The output $y$ is determined by an activation function, such as:]()
 
