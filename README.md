@@ -901,6 +901,30 @@ print("Theta (Mini-batch):", theta)
 <br><br>
 
 
+## 5. Elastic Net Regularization with Scikit-learn
+
+### - [**Concept:**]()  
+
+Combines L1 and L2 regularization to prevent overfitting.
+
+### - [**Use Case:**]() 
+
+Regression with regularization on MNIST features or other datasets.
+
+### Code
+
+<br>
+
+```python
+
+```
+
+<br><br>
+
+
+
+
+
 
 
 
