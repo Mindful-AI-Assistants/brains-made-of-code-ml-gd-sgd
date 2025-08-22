@@ -355,7 +355,7 @@ $$
 #
 
 
-[- **Backpropagation for Hidden Layer:**]()
+- [**Backpropagation for Hidden Layer:**]()
 
 <br>
 
@@ -398,7 +398,7 @@ $$
 <br>
 
 
-[And example weights]():
+- [And example weights]():
 
 - \( w^{(1)}_{00} = 0.45 \)
 - \( w^{(1)}_{01} = 0.89 \)
@@ -407,7 +407,7 @@ $$
 
 <br><br>
 
-## [Compute the activations and outputs](), for each layer using an activation function (e.g.,** `tanh`**):
+## [Compute the activations and outputs for each layer using an activation function (e.g.,** `tanh`**)]():
 
 <br>
 
