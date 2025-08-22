@@ -263,9 +263,9 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 - [**Input Layer:**]() Receives input patterns.
 
-- [**Hidden Layer(s):***]() Main processing; feature extraction.
+- [**Hidden Layer(s):**]() Main processing; feature extraction.
 
-- [**Output Layer:***]() Produces the final result.
+- [**Output Layer:**]() Produces the final result.
 
 <br>
 
