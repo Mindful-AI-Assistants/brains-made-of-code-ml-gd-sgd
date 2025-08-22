@@ -600,28 +600,45 @@ Adapts the learning rate for each parameter, useful to accelerate training and a
 
 Before running any code, install the necessary Python libraries appropriate for your operating system and environment:
 
+<br><br>
+
+#### [Cell 1]() - Installation Commands
+
 <br>
 
-#### [Cell 1]() - Setup and Data Generation
+
+```python
+# macOS Terminal or Jupyter Notebook (IPython):
+
+%pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
+```
 
 <br>
 
 ```python
+# Windows Command Prompt or PowerShell:
 
+pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
 ```
 
 <br>
 
 
+```python
+# Linux Terminal or Jupyter Notebook (IPython):
+
+%pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
+```
+
+<br>
 
 
-
-
-
-
-
-
-
+> This will install:
+> - **numpy**: Numerical computations
+> - **matplotlib**: Plotting and visualization
+> - **tensorflow**: Deep learning framework
+> - **scikit-learn**: Machine learning utilities
+> - **tensorflow-datasets**: Loading datasets like MNIST easily
 
 
 
