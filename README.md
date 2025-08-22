@@ -265,8 +265,11 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   a = \sum_{i=1}^{p} w_i X_i
   $$
 
-<br>
+<br><br>
   
+  
+#
+
 
 - [**Output:**]()
 
@@ -275,8 +278,10 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   $\Huge y = f(a)$, [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
   
 
-<br>
+<br><br>
   
+  
+#
 
 - [**Error Calculation:**]()
 
@@ -289,6 +294,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
 <br><br>
   
+#
 
 - [**Cost Function (Mean Squared Error):**]()
 
@@ -301,6 +307,7 @@ $$
 
 <br><br>
   
+#  
   
 - [**Weight Update (Gradient Descent):**]()
 
@@ -317,6 +324,8 @@ $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
 -->
 
 <br><br>
+  
+#
 
 - [**Backpropagation for Output Layer:**]()
 
@@ -326,19 +335,26 @@ $$
 $$
  
 <br><br>
+  
+#
 
 
 [- **Backpropagation for Hidden Layer:**]()
 
 
+$$
+\Huge
+delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
+$$
+
  $\delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))$
 
 
-```latex
-delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
-```
 
-<br>
+
+<br><br>
+  
+#
 
 
 ## [Training](): Two-Phase Process
