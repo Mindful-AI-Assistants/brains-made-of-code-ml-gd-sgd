@@ -387,18 +387,18 @@ $$
 
 ### Forward Computation Example
 
-- [For input values]():
+#### - [For input values]():
 
 <br>
 
-- $\( X_0 = 1 \)$
+- $\medium \( X_0 = 1 \)$
 - $\( X_1 = 0.43 \)$
 - $\( X_2 = 0.78 \)$
 
 <br>
 
 
-- [And example weights]():
+#### - [And example weights]():
 
 - $\( w^{(1)}_{00} = 0.45 \)$
 - $\( w^{(1)}_{01} = 0.89 \)$
