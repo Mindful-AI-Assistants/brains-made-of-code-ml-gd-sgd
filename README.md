@@ -839,10 +839,28 @@ plt.show()
 <br><br>
 
 
+## 3. Stochastic Gradient Descent (SGD)
+
+### [**Concept:**]()  
+
+Updates weights using gradients from one training sample at a time, adding noise but enabling faster updates.
+
+<br>
+
+### [**Use Case:**]()  
+
+Useful for large datasets or online learning.
+
+### [**Code:**]()
+
+<br>
 
 
 
 
+
+
+<br><br>
 
 
 
