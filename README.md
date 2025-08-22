@@ -1014,6 +1014,21 @@ Speeds convergence and helps avoid local minima during training.
 <br>
 
 ```python
+import numpy as np
+
+grad = np.array([0.1, -0.2, 0.05])
+learning_rate = 0.1
+momentum = 0.9
+velocity = np.zeros_like(grad)
+weights = np.array([0.5, -0.3, 0.8])
+
+velocity = momentum * velocity - learning_rate * grad
+weights += velocity
+
+print("Weights updated:", weights)
+```
+
+<br><br>
 
 
 
