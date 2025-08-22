@@ -1003,6 +1003,17 @@ print("Loss:", E)
 <br><br>
 
 
+## 8. [Momentum Optimization]()
+
+### - [**Use Case:**]()
+
+Speeds convergence and helps avoid local minima during training.
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
 
