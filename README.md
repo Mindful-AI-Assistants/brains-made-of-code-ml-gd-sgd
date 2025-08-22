@@ -692,7 +692,56 @@ print("3D tensor:\n", tensor_3d.numpy())
 print("Shape:", tensor_3d.shape)
 ```
 
+<br><br>
+
+
+### 0.2 [Loading MNIST Dataset from TensorFlow Datasets]()
+
+### [**Concept:**]()  
+MNIST dataset can be streamed using TensorFlow Datasets, cached automatically without manual download management.
+
 <br>
+
+### [**Use Case:**]()  
+Practice and benchmark image classification models.
+
+<br>
+
+### [**Code:**]()
+
+<br>
+
+```
+import tensorflow_datasets as tfds
+import tensorflow as tf
+import matplotlib.pyplot as plt
+
+ds_train = tfds.load('mnist', split='train', shuffle_files=True, as_supervised=True)
+ds_test = tfds.load('mnist', split='test', as_supervised=True)
+
+def normalize_img(image, label):
+image = tf.cast(image, tf.float32) / 255.0
+return image, label
+
+ds_train = ds_train.map(normalize_img).shuffle(10000).batch(32).prefetch(tf.data.AUTOTUNE)
+ds_test = ds_test.map(normalize_img).batch(32).prefetch(tf.data.AUTOTUNE)
+
+for image, label in ds_train.take(1):
+plt.imshow(tf.squeeze(image), cmap='gray')
+plt.title(f"Label: {label.numpy()}")
+plt.axis('off')
+plt.show()
+```
+
+<br><br>
+
+
+
+
+
+
+
+
 
 
 
