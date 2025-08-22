@@ -911,7 +911,7 @@ Combines L1 and L2 regularization to prevent overfitting.
 
 Regression with regularization on MNIST features or other datasets.
 
-### - [**Code:**](
+### - [**Code:**]()
 
 <br>
 
@@ -938,6 +938,17 @@ print(f"MSE: {mse}")
 
 
 
+## 6. [Multilayer Perceptron (MLP) Forward Pass]()
+
+### - [**Use Case:**]()  
+
+General-purpose nonlinear function approximation with hidden layers.
+
+### Code
+
+### - [**Code:**]()
+
+<br>
 
 
 
