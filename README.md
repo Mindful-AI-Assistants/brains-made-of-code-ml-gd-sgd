@@ -283,7 +283,11 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
 
   <br>
   
-  $\Huge y = f(a)$, [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
+$$
+\Huge y = f(a)
+$$
+
+### [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
   
 
 <br><br>
