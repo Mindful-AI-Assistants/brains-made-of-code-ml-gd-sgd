@@ -644,25 +644,55 @@ pip install numpy matplotlib tensorflow scikit-learn tensorflow-datasets
 <br>
 
 
-## 0. Understanding Tensors and Loading MNIST Dataset
+## 0. [Understanding Tensors and Loading MNIST Dataset]()
 
-### 0.1 What is a Tensor?
+### 0.1 [What is a Tensor]()?
 
-### [**Concept:**]()  
+### - [**Concept:**]()  
 
 A tensor generalizes scalars (0-D), vectors (1-D), and matrices (2-D) to n-dimensional arrays. Data in neural networks (inputs, weights, activations) are represented as tensors.  
 Understanding tensors is essential for deep learning frameworks.
 
 <br>
 
-### [**Use Case]()  
+### - [**Use Case]()  
 
 Manages multi-dimensional data like images (3D tensors with height, width, channels) or batches of images (4D tensors).
 
 <br>
 
-### [**Code:**]()
+### - [**Code:**]()
 
+<br>
+
+```python
+import tensorflow as tf
+
+# 0-D scalar
+
+scalar = tf.constant(42)
+print("Scalar:", scalar, "Shape:", scalar.shape)
+
+# 1-D vector
+
+vector = tf.constant()
+print("Vector:", vector, "Shape:", vector.shape)
+
+# 2-D matrix
+
+matrix = tf.constant([, ])
+print("Matrix:\n", matrix.numpy())
+print("Shape:", matrix.shape)
+
+# 3-D tensor (example: color image 2x2 pixels with 3 color channels)
+
+tensor_3d = tf.constant([[, ],
+[, ]])
+print("3D tensor:\n", tensor_3d.numpy())
+print("Shape:", tensor_3d.shape)
+```
+
+<br>
 
 
 
