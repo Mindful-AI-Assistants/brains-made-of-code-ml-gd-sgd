@@ -868,19 +868,15 @@ print("Theta (SGD):", theta)
 
 ## 4. [Mini-batch Gradient Descent]()
 
-### [**Concept:**]()  
+### - [**Concept:**]()  
 
 Updates weights on small subsets (mini-batches), balancing stability and speed.
 
-<br>
-
-### [**Use Case:**]() 
+### - [**Use Case:**]() 
 
 Common in deep learning training.
 
-<br>
-
-### [**Code:**]()
+### - [**Code:**]()
 
 <br>
 
