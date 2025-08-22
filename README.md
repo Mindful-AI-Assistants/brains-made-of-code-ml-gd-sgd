@@ -979,8 +979,28 @@ Train neural networks by propagating error gradients backward.
 <br>
 
 ```python
+desired = 0.5
+error = desired - y_output
+E = 0.5 * error**2
 
+def tanh_derivative(x):
+return 1 - np.tanh(x)**2
 
+delta_output = error * tanh_derivative(u_output)
+delta_hidden = delta_output * w_output * tanh_derivative(u_hidden)
+
+learning_rate = 0.1
+
+w_output += learning_rate * delta_output * y_hidden
+w_hidden += learning_rate * np.outer(delta_hidden, X)
+
+print("Updated weights")
+print("Output weights:", w_output)
+print("Hidden weights:", w_hidden)
+print("Loss:", E)
+```
+
+<br><br>
 
 
 
