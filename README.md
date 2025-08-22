@@ -323,6 +323,8 @@ $$
   
 - [**Weight Update (Gradient Descent):**]()
 
+<br>
+
 $$
 \Huge
 w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}
@@ -341,6 +343,8 @@ $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
 
 - [**Backpropagation for Output Layer:**]()
 
+<br>
+
 $$
 \Huge
 \delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)
@@ -353,6 +357,7 @@ $$
 
 [- **Backpropagation for Hidden Layer:**]()
 
+<br>
 
 $$
 \Huge
@@ -365,6 +370,8 @@ $$
 
 ## [Training](): Two-Phase Process
 
+<br>
+
 ### [1](). Forward Phase
 
 - Initialize learning rate $\eta$ and weight matrix $w$ with random values.  
@@ -374,29 +381,45 @@ $$
 - The error for each output neuron is calculated.
 
 
-### [**Example Calculation:**]()
+<br>
+
+### - [**Example Calculation:**]()
 
 ### Forward Computation Example
 
-For input values:
+- [For input values]():
+
+<br>
 
 - \( X_0 = 1 \)
 - \( X_1 = 0.43 \)
 - \( X_2 = 0.78 \)
 
-And example weights:
+<br>
+
+
+[And example weights]():
 
 - \( w^{(1)}_{00} = 0.45 \)
 - \( w^{(1)}_{01} = 0.89 \)
 - etc.
 
 
-**Compute the activations and outputs for each layer using an activation function (e.g.,** `tanh`**):**
+<br><br>
 
-<p>Compute pre-activation (input to each hidden neuron):</p>
-<p>$$
+## [Compute the activations and outputs](), for each layer using an activation function (e.g.,** `tanh`**):
+
+<br>
+
+- ### [**Compute pre-activation (input to each hidden neuron)**]():
+
+<br>
+
+$$
 u_j^{(1)} = \sum_i X_i \cdot w_{ji}^{(1)}
-$$</p>
+$$
+
+<br>
 
 - **Compute activation (output from each hidden neuron):**
 
