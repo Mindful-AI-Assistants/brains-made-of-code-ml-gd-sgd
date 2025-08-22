@@ -287,7 +287,7 @@ $$
 \Huge y = f(a)
 $$
 
-### [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
+### <p align="center"> [where]() $\Huge f$ is the activation function (e.g., sigmoid, tanh)
   
 
 <br><br>
