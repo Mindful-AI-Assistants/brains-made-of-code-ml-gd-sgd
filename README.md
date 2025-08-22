@@ -786,7 +786,7 @@ plt.show()
 <br><br>
 
 
-## 2. Gradient Descent (Batch Gradient Descent)
+## 2. [Gradient Descent (Batch Gradient Descent)]()
 
 ### [**Concept:**]()  
 
@@ -839,7 +839,7 @@ plt.show()
 <br><br>
 
 
-## 3. Stochastic Gradient Descent (SGD)
+## 3. [Stochastic Gradient Descent (SGD)]()
 
 ### [**Concept:**]()  
 
@@ -879,7 +879,7 @@ print("Theta (SGD):", theta)
 <br><br>
 
 
-## 4. Mini-batch Gradient Descent
+## 4. [Mini-batch Gradient Descent]()
 
 ### [**Concept:**]()  
 
