@@ -851,6 +851,8 @@ Updates weights using gradients from one training sample at a time, adding noise
 
 Useful for large datasets or online learning.
 
+<br>
+
 ### [**Code:**]()
 
 <br>
@@ -877,10 +879,26 @@ print("Theta (SGD):", theta)
 <br><br>
 
 
+## 4. Mini-batch Gradient Descent
 
+### [**Concept:**]()  
 
+Updates weights on small subsets (mini-batches), balancing stability and speed.
 
+### Use Case
 
+Common in deep learning training.
+
+<br>
+
+### [**Code:**]()
+
+<br>
+
+```python
+```
+
+<br><br>
 
 
 
