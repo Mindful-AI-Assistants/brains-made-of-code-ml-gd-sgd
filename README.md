@@ -347,15 +347,9 @@ $$
 delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))
 $$
 
- $\delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))$
-
-
-
 
 <br><br>
   
-#
-
 
 ## [Training](): Two-Phase Process
 
