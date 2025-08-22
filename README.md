@@ -58,7 +58,7 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 
 
       
-# [Artificial Neural Networks – Gradient Descent]()
+# I - [Artificial Neural Networks – Gradient Descent]()
 
 This repository provides a comprehensive explanation of Artificial Neural Networks (ANNs), focusing on the perceptron and multilayer perceptron (MLP) architectures, and the Gradient Descent algorithm for training. The content is based on the [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf) document.
 
@@ -534,7 +534,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
- # [Algorithms]()
+ # [Other Algorithms Used to Train Machine Learning Models]()
 
 ## 1.[Gradient Descent]()
 
@@ -547,154 +547,67 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
-## 1 - [Gradient Descent (**Batch**) - Step by Step Code]()
+### 1 - [Gradient Descent (**Batch**) - Step by Step Code]()
 
 Gradient Descent is an iterative algorithm to minimize a cost function by adjusting parameters opposite to the gradient direction. Batch Gradient Descent calculates the gradient using the entire dataset each step, resulting in stable but sometimes slow parameter updates.
 
 
 <br>
 
-#### [Cell 1]() - Setup and Data Generation
-
-<br>
-
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Generate synthetic data
-
-X = 2 * np.random.rand(100, 1)
-y = 4 + 3 * X + np.random.randn(100, 1)
-
-# Add bias term (intercept)
-
-X_b = np.c_[np.ones((100, 1)), X]
-```
-
-<br>
-
-#### [Cell 2]() - Gradient Descent Algorithm
-
-<br>
-
-```python
-learning_rate = 0.1
-n_iterations = 1000
-m = 100
-theta = np.random.randn(2,1)  \# random initialization
-
-for iteration in range(n_iterations):
-gradients = 2/m * X_b.T.dot(X_b.dot(theta) - y)
-theta = theta - learning_rate * gradients
-```
-
-<br>
-
-#### [Cell 3]() - Output and Plotting
-
-<br>
-
-```python
-print("Theta:", theta)
-
-plt.plot(X, y, "b.")
-X_new = np.array([, ])
-X_new_b = np.c_[np.ones((2,1)), X_new]
-y_predict = X_new_b.dot(theta)
-plt.plot(X_new, y_predict, "r-")
-plt.title("Batch Gradient Descent")
-plt.show()
-```
-
-<br><br>
-
-## 2 [Stochastic Gradient Descent (SGD)]()
+### 2 [Stochastic Gradient Descent (SGD)]()
 
 Stochastic Gradient Descent updates parameters based on a single random sample per iteration. This yields noisier but faster updates, suitable for large datasets and deep learning models.
 
-<br>
-
-#### [Cell 1]() - SGD Implementation
 
 <br>
 
-```python
-theta = np.random.randn(2,1)  \# reset parameters
-n_epochs = 50
-t = 0  \# iteration counter for adaptive learning rate
-m = len(X_b)
-
-for epoch in range(n_epochs):
-for i in range(m):
-random_index = np.random.randint(m)
-xi = X_b[random_index:random_index+1]
-yi = y[random_index:random_index+1]
-gradients = 2 * xi.T.dot(xi.dot(theta) - yi)
-eta = 0.1 / (1 + t * 0.01)  \# learning rate decay
-theta = theta - eta * gradients
-t += 1
-
-print("Theta after SGD:", theta)
-```
-
-<br><br>
-
-## 3. [Elastic Net Regularization]()
+### 3. [Elastic Net Regularization]()
 
 Elastic Net combines L1 (Lasso) and L2 (Ridge) penalties to improve the performance of linear regression models, particularly when many variables are correlated. It helps prevent overfitting and performs automatic feature selection, making it a powerful tool for machine learning modeling.
-<br>
 
-#### [Cell 1]() - Data Splitting
 
-<br>
 
-```python
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-```
-
-<br>
-
-#### [Cell 2]() - Elastic Net Model Training and Evaluation
-
-<br>
-
-```python
-
-from sklearn.linear_model import ElasticNet
-from sklearn.metrics import mean_squared_error
-
-elastic_net = ElasticNet(alpha=0.1, l1_ratio=0.7, max_iter=1000)
-elastic_net.fit(X_train, y_train.ravel())
-
-y_pred = elastic_net.predict(X_test)
-mse = mean_squared_error(y_test, y_pred)
-
-print(f"ElasticNet Coefficients: {elastic_net.coef_}")
-print(f"ElasticNet Intercept: {elastic_net.intercept_}")
-print(f"Mean Squared Error: {mse}")
-```
-
-<br><br>
-
-## 4. [Mini-batch Gradient Descent]()
+### 4. [Mini-batch Gradient Descent]()
 
 Mini-batch Gradient Descent is a compromise between batch and stochastic descent. It updates parameters using small random batches, accelerating convergence with reduced noise.
 
 <br>
 
 
+### 5. [Adam (Adaptive Moment Estimation)]() 
+
+An algorithm combining momentum and adaptive learning rates to improve convergence and training efficiency, especially in deep neural networks.
+
+
+<br>
+
+### 6. [RMSProp]() 
+
+Adapts the learning rate for each parameter, useful to accelerate training and avoid oscillations.
 
 
 
+<br><br>
+
+<!--
+<br>
+
+#### [Cell 1]() - Setup and Data Generation
+
+<br>
+
+```python
+
+```
+
+<br>
+
+--->
 
 
+# II - [Artificial Neural Networks (ANN) - Comprehensive Theory, Use Cases, and Python Code Guide]()
 
-
-
+<br>
 
 
 
@@ -752,9 +665,7 @@ Mini-batch Gradient Descent is a compromise between batch and stochastic descent
 
 - [**Mini-batch Gradient Descent:**]() A compromise between batch and stochastic methods, using small batches of data to compute the gradient each step.
 
-- [**Adam (Adaptive Moment Estimation):**]() An algorithm combining momentum and adaptive learning rates to improve convergence and training efficiency, especially in deep neural networks.
 
-- [**RMSProp:**]() Adapts the learning rate for each parameter, useful to accelerate training and avoid oscillations.
 
 
 
