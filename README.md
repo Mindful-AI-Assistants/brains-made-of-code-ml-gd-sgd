@@ -944,8 +944,6 @@ print(f"MSE: {mse}")
 
 General-purpose nonlinear function approximation with hidden layers.
 
-### Code
-
 ### - [**Code:**]()
 
 <br>
@@ -970,6 +968,17 @@ print("Network output:", y_output)
 <br><br>
 
 
+## 7. [Backpropagation and Weight Updates]()
+
+### - [**Use Case:**]()
+
+Train neural networks by propagating error gradients backward.
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
 
