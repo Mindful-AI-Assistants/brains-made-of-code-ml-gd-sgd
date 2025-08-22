@@ -53,8 +53,9 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c1d1a6ae-cf3d-4a71-871f-461928012002" />
 
-<br><br>
 
+
+<br><br>
 
 
       
@@ -399,7 +400,7 @@ $$
 
 ### Forward Computation Example
 
-#### - [For input values]():
+### - [For input values]():
 
 <br>
 
@@ -416,7 +417,7 @@ $$
 <br>
 
 
-#### - [And example weights]():
+### - [And example weights]():
 
 <br>
 
@@ -466,7 +467,9 @@ $$
 ### [2](). Backward Phase (Backpropagation)
 
 - Start from the output layer.  
+
 - Each node adjusts its weight to reduce its error.  
+
 - For hidden layers, the error is determined by the weighted errors of the next layer (chain rule).
 
 - Output layer weight update:  
