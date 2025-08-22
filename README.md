@@ -698,11 +698,13 @@ print("Shape:", tensor_3d.shape)
 ### 0.2 [Loading MNIST Dataset from TensorFlow Datasets]()
 
 ### [**Concept:**]()  
+
 MNIST dataset can be streamed using TensorFlow Datasets, cached automatically without manual download management.
 
 <br>
 
 ### [**Use Case:**]()  
+
 Practice and benchmark image classification models.
 
 <br>
@@ -736,6 +738,23 @@ plt.show()
 <br><br>
 
 
+## 1. [Artificial Neuron Model]()
+
+### [**Concept:**]()  
+
+Computes weighted sum of inputs followed by a nonlinear activation function (e.g., sigmoid).
+
+<br>
+
+### [**Use Case:**]()  
+
+Fundamental computation unit for classification.
+
+<br>
+
+### [**Code:**]() -  with MNIST-like input shape simplified to vector
+
+<br>
 
 
 
@@ -744,6 +763,7 @@ plt.show()
 
 
 
+<br><br>
 
 
 
