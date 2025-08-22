@@ -287,7 +287,7 @@ A two-layer perceptron (MLP with one hidden layer and one output layer) can appr
   e_k(n) = d_k(n) - y_k(n)$
   $$ 
 
-<br>
+<br><br>
   
 
 - [**Cost Function (Mean Squared Error):**]()
@@ -299,14 +299,14 @@ $$
 E(n) = \frac{1}{2} e_k^2(n
 $$
 
-<br>
+<br><br>
   
   
 - [**Weight Update (Gradient Descent):**]()
 
 $$
 \Huge
-$w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}
+w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}
 $$
 
 <!--
@@ -316,7 +316,7 @@ $\Huge w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
 $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
 -->
 
-<br>
+<br><br>
 
 - [**Backpropagation for Output Layer:**]()
 
@@ -325,12 +325,7 @@ $$
 \delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)
 $$
  
-  
-  
-  $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
-
-
-<br>
+<br><br>
 
 
 [- **Backpropagation for Hidden Layer:**]()
