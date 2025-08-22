@@ -756,12 +756,32 @@ Fundamental computation unit for classification.
 
 <br>
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
 
+def sigmoid(x):
+return 1 / (1 + np.exp(-x))
 
+# Simulating a single flattened MNIST image input (784 pixels normalized)
 
+X = np.random.rand(784)  \# Normally we'd flatten an image; here random for example
+w = np.random.rand(784)  \# weights vector
 
+a = np.dot(w, X)
+y = sigmoid(a)
 
+print("Activation:", a)
+print("Output:", y)
 
+x_vals = np.linspace(-10, 10, 100)
+plt.plot(x_vals, sigmoid(x_vals))
+plt.title("Sigmoid Activation")
+plt.xlabel("Input")
+plt.ylabel("Output")
+plt.grid(True)
+plt.show()
+```
 
 <br><br>
 
