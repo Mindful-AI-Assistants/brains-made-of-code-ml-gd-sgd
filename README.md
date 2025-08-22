@@ -885,7 +885,9 @@ print("Theta (SGD):", theta)
 
 Updates weights on small subsets (mini-batches), balancing stability and speed.
 
-### Use Case
+<br>
+
+### [**Use Case:**]() 
 
 Common in deep learning training.
 
