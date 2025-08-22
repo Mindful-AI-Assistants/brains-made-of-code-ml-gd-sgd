@@ -786,10 +786,28 @@ plt.show()
 <br><br>
 
 
+## 2. Gradient Descent (Batch Gradient Descent)
+
+### [**Concept:**]()  
+
+Updates weights by calculating gradients over the entire training dataset.
+
+<br>
+
+### [**Use Case:**]()  
+
+Stable, but computationally expensive for large datasets.
+
+<br>
+
+### [**Code:**]()
+
+<br>
 
 
 
 
+<br><br>
 
 
 
