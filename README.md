@@ -589,7 +589,17 @@ Adapts the learning rate for each parameter, useful to accelerate training and a
 
 <br><br>
 
-<!--
+
+
+
+# II - [Artificial Neural Networks (ANN) - Comprehensive Theory, Use Cases, and Python Code Guide]()
+
+<br>
+
+### Required Libraries Installation
+
+Before running any code, install the necessary Python libraries appropriate for your operating system and environment:
+
 <br>
 
 #### [Cell 1]() - Setup and Data Generation
@@ -602,12 +612,6 @@ Adapts the learning rate for each parameter, useful to accelerate training and a
 
 <br>
 
---->
-
-
-# II - [Artificial Neural Networks (ANN) - Comprehensive Theory, Use Cases, and Python Code Guide]()
-
-<br>
 
 
 
@@ -643,27 +647,6 @@ Adapts the learning rate for each parameter, useful to accelerate training and a
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-
-## [Other Algorithms Used to Train Machine Learning Models]()
-
-- [**Batch Gradient Descent:**]() Computes the gradient using the entire dataset in each iteration, providing stable updates but slower on large datasets.
-
-- [**Mini-batch Gradient Descent:**]() A compromise between batch and stochastic methods, using small batches of data to compute the gradient each step.
 
 
 
