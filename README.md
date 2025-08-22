@@ -855,10 +855,24 @@ Useful for large datasets or online learning.
 
 <br>
 
+```python
+theta = np.random.randn(2,1)
+n_epochs = 50
+t = 0
+m = len(X_b)
 
+for epoch in range(n_epochs):
+for i in range(m):
+random_index = np.random.randint(m)
+xi = X_b[random_index:random_index+1]
+yi = y[random_index:random_index+1]
+gradients = 2 * xi.T.dot(xi.dot(theta) - yi)
+eta = 0.1 / (1 + t * 0.01)  \# decaying learning rate
+theta = theta - eta * gradients
+t += 1
 
-
-
+print("Theta (SGD):", theta)
+```
 
 <br><br>
 
