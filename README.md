@@ -309,18 +309,27 @@ $$
 $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}
 $$
 
+<!--
 
 $\Huge w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
   
 $w_{kj}(n+1) = w_{kj}(n) + \eta \frac{\partial E(n)}{\partial w_{kj}}$
-  
+-->
+
+<br>
 
 - [**Backpropagation for Output Layer:**]()
 
   $\delta^{(2)}(t) = (d(t) - y(t)) \cdot f'^{(2)}(u)$
 
 
+<br>
+
+
 [- **Backpropagation for Hidden Layer:**]()
+
+
+ $\delta_j^(1)(t) = ( sum_k [ delta_k^(2) * w_kj^(2) ] ) * f'^(1)( u_j^(1))$
 
 
 ```latex
