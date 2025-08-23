@@ -2,7 +2,7 @@
 <br>
 
 #  <p align="center"> 🧠  [Brain]() Made of Code, [Created]() with [Heart]() ❤︎
-### <p align="center"> Machine Learning Regression with Gradient Descent and Stochastic Optimization
+### <p align="center"> From Regression to Neural Nets: Learning with Gradient Descent & Beyond 
 
 <br><br>
 
@@ -41,7 +41,6 @@
 <!-- End -->
 
 
-
 This project demonstrates how to train a Linear Regression model using both Batch Gradient Descent (GD) and Stochastic Gradient Descent (SGD). The implementation includes Python code, dataset, and detailed visualizations to illustrate convergence behavior, performance comparison, and optimization dynamics.
 
 Also presents key optimization algorithms for machine learning with explanations followed by Python code split into individual cells. Each algorithm’s explanation precedes its corresponding step-by-step code cells, ready for direct copy-pasting into Jupyter Notebook or Google Colab.
@@ -58,18 +57,23 @@ Ideal for beginners and intermediate learners looking to understand the foundati
 <br><br>
 
 
-      
-# I - [Artificial Neural Networks – Gradient Descent]()
 
-This repository provides a comprehensive explanation of Artificial Neural Networks (ANNs), focusing on the perceptron and multilayer perceptron (MLP) architectures, and the Gradient Descent algorithm for training. The content is based on the [Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf) document.
+# I - [Artificial Neural Networks – From Perceptron to Modern Learning Algorithms]() 
+
+This repository provides a **hands-on and structured overview** of **Artificial Neural Networks (ANNs)** — starting from the **Perceptron**, moving through the **Multilayer Perceptron (MLP)**, and exploring the **learning algorithms** that power Machine Learning, such as **Gradient Descent** and its variations.
+
+The content is inspired by the official theoretical material *[Decreasing-Gradient.pdf](./Decreasing-Gradient.pdf)* from the **Undergraduate Program in Humanistic AI and Data Science at PUC São Paulo, Brazil**.
 
 <br>
 
 ## [Motivation]()
 
-The human brain processes information in a highly complex, nonlinear, and parallel way, which is fundamentally different from conventional digital computers. For example, tasks such as visual recognition (e.g., recognizing a familiar face in an unfamiliar scene) are performed by the brain in milliseconds, while much simpler tasks can take a conventional computer days to complete.
+The human brain processes information in a **nonlinear, adaptive, and massively parallel** way — very different from how conventional computers work.
 
-At birth, a child's brain has a large structure and the ability to develop its own rules through experience. ANNs are computational machines designed to model or simulate the way the brain performs specific tasks or functions of interest.
+For example, the brain can **recognize a familiar face in milliseconds**, even in a completely new environment. Meanwhile, traditional computers may take much longer to solve much simpler problems.
+
+Taking inspiration from biology, **Artificial Neural Networks** are computational models designed to **learn from data, adapt through experience, and replicate human-like problem solving**.
+
 
 <br>
 
