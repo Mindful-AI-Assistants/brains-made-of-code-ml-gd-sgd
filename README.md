@@ -65,7 +65,9 @@ It includes hands-on implementations of multiple **optimization algorithms** —
 * [**Detailed visualizations**]() illustrating convergence behavior, performance trade-offs, and optimization dynamics.
 
 
-makes the project ideal for [**beginners**]() and [**intermediate**]() learners** seeking a solid foundation in [**machine learning optimization algorithms**](), while also serving as a reference for more advanced experimentation.
+<br>
+
+This makes the project ideal for [**beginners**]() and [**intermediate**]() learners** seeking a solid foundation in [**machine learning optimization algorithms**](), while also serving as a reference for more advanced experimentation.
 
 
 <br><br>
