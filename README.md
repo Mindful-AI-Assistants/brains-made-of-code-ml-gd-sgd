@@ -55,7 +55,7 @@ This project provides a **comprehensive and hands-on guide to Machine Learning a
 [It starts from the ground up]():
 
 
-* **Historical & Mathematical Background:**Full explanations of the theory behind algorithms, including derivations, historical context, and all key formulas. Formulas are provided in LaTeX, ready to copy-paste for documentation or reports.
+* **Historical & Mathematical Background:** Full explanations of the theory behind algorithms, including derivations, historical context, and all key formulas. Formulas are provided in LaTeX, ready to copy-paste for documentation or reports.
 
 * **Foundations:** understanding tensors as the core data structure in deep learning.
 
