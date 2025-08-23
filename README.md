@@ -2,7 +2,7 @@
 <br>
 
 #  <p align="center"> 🧠  [Brain]() Made of Code, [Created]() with [Heart]() ❤︎
-### <p align="center"> From Regression to Neural Nets: Learning with Gradient Descent & Beyond 
+### <p align="center"> [From Regression to Neural Nets](): Learning with Gradient Descent & Beyond 
 
 <br><br>
 
