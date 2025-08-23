@@ -102,7 +102,7 @@ $$
 a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p
 $$
 
-<br>
+<br><br>
 
 ```latex
 \a = w_1 X_1 + w_2 X_2 + \cdots + w_p X_p\
@@ -125,7 +125,7 @@ y =
 \end{cases}
 $$
 
-<br>
+<br><br>
 
 ```latex
 y =
