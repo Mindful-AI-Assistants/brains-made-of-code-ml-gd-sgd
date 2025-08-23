@@ -46,28 +46,45 @@
 
 <!-- End -->
 
-This project explores how to train and optimize Machine Learning models, starting with **Linear Regression** and extending to **Artificial Neural Networks (ANNs)**.
 
-It includes hands-on implementations of multiple **optimization algorithms** — such as **Batch Gradient Descent (GD)**, **Stochastic Gradient Descent (SGD)**, and other gradient-based and stochastic methods. Beyond the basics, the project also introduces techniques that enhance convergence and stability, providing a broader view of how learning algorithms evolve in practice.
+This project provides a **comprehensive and hands-on guide to Machine Learning and Artificial Neural Networks (ANNs)**, combining **theory, Python code, and visualizations**.
+
+<BR>
+
+
+[It starts from the ground up]():
+
+
+* **Historical & Mathematical Background:**Full explanations of the theory behind algorithms, including derivations, historical context, and all key formulas. Formulas are provided in LaTeX, ready to copy-paste for documentation or reports.
+
+* **Foundations:** understanding tensors as the core data structure in deep learning.
+
+* **Datasets:** loading and working with real datasets online (e.g., MNIST) for experimentation.
+
+* **Regression & Optimization:** training models with Batch Gradient Descent, Stochastic Gradient Descent, and Mini-batch GD.
+
+* **Regularization:** applying techniques like Elastic Net to reduce overfitting and improve generalization.
+
+* **Model Evaluation:** exploring accuracy metrics, detecting and handling outliers, and understanding error analysis.
+
+* **Neural Networks:** building progressively — from the artificial neuron model to Multilayer Perceptrons (MLP), forward and backward propagation, and optimization improvements like Momentum.
 
 
 <br><br>
 
 
-#### [The repository features]():
+[The repository provides]():
 
-* [**Python code**]() organized in clear, reproducible cells.
+* **Step-by-step explanations** before each implementation.
 
-* [**Datasets**]() for practical experimentation.
+* **Python code split into reproducible cells**, ready for Jupyter Notebook or Google Colab.
 
-* [**Step-by-step explanations**]() followed by executable code blocks, ready for use in **Jupyter Notebook** or **Google Colab**.
-
-* [**Detailed visualizations**]() illustrating convergence behavior, performance trade-offs, and optimization dynamics.
-
+* **Practical examples and visualizations** to illustrate convergence, performance, overfitting behavior, and accuracy measurement.
 
 <br>
 
-This makes the project ideal for [**beginners**]() and [**intermediate**]() learners** seeking a solid foundation in [**machine learning optimization algorithms**](), while also serving as a reference for more advanced experimentation.
+Ideal for [**beginners**]() and [**intermediate**]() learners looking to build a solid foundation in [**machine learning optimization algorithms**](), and who want to [**go beyond running code**]() to truly understand the underlying concepts of ***optimization***, ***evaluation***, and [**neural networks**]().
+
 
 
 <br><br>
