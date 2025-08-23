@@ -11,9 +11,15 @@
 
 <br><br>
 
+
+<!--Brain - ART GIF -->
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/20470843-6f04-4e20-81d5-7aa918ca9a2b" width="450"/>
 </p>
+
+<!--Confidentiality statement -->
+
 
 
 
@@ -40,18 +46,32 @@
 
 <!-- End -->
 
+This project explores how to train and optimize Machine Learning models, starting with **Linear Regression** and extending to **Artificial Neural Networks (ANNs)**.
 
-This project demonstrates how to train a Linear Regression model using both Batch Gradient Descent (GD) and Stochastic Gradient Descent (SGD). The implementation includes Python code, dataset, and detailed visualizations to illustrate convergence behavior, performance comparison, and optimization dynamics.
+It includes hands-on implementations of multiple **optimization algorithms** — such as **Batch Gradient Descent (GD)**, **Stochastic Gradient Descent (SGD)**, and other gradient-based and stochastic methods. Beyond the basics, the project also introduces techniques that enhance convergence and stability, providing a broader view of how learning algorithms evolve in practice.
 
-Also presents key optimization algorithms for machine learning with explanations followed by Python code split into individual cells. Each algorithm’s explanation precedes its corresponding step-by-step code cells, ready for direct copy-pasting into Jupyter Notebook or Google Colab.
+<br>
 
-Ideal for beginners and intermediate learners looking to understand the foundations of machine learning optimization algorithms.
+### [The repository features]():
+
+* [**Python code**]() organized in clear, reproducible cells.
+* [**Datasets**]() for practical experimentation.
+* [**Step-by-step explanations**]() followed by executable code blocks, ready for use in **Jupyter Notebook** or **Google Colab**.
+* [**Detailed visualizations**]() illustrating convergence behavior, performance trade-offs, and optimization dynamics.
+
+
+makes the project ideal for [**beginners**]() and [**intermediate**]() learners** seeking a solid foundation in [**machine learning optimization algorithms**](), while also serving as a reference for more advanced experimentation.
+
 
 <br><br>
+
+
+<!--Neural Net Nodes GIF -->
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c1d1a6ae-cf3d-4a71-871f-461928012002" />
 
+<!--End-->
 
 
 <br><br>
