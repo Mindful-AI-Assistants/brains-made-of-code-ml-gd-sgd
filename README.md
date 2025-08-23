@@ -50,13 +50,18 @@ This project explores how to train and optimize Machine Learning models, startin
 
 It includes hands-on implementations of multiple **optimization algorithms** — such as **Batch Gradient Descent (GD)**, **Stochastic Gradient Descent (SGD)**, and other gradient-based and stochastic methods. Beyond the basics, the project also introduces techniques that enhance convergence and stability, providing a broader view of how learning algorithms evolve in practice.
 
-<br>
 
-### [The repository features]():
+<br><br>
+
+
+#### [The repository features]():
 
 * [**Python code**]() organized in clear, reproducible cells.
+
 * [**Datasets**]() for practical experimentation.
+
 * [**Step-by-step explanations**]() followed by executable code blocks, ready for use in **Jupyter Notebook** or **Google Colab**.
+
 * [**Detailed visualizations**]() illustrating convergence behavior, performance trade-offs, and optimization dynamics.
 
 
