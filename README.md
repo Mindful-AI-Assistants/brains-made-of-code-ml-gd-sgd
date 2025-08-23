@@ -76,13 +76,18 @@ At birth, a child's brain has a large structure and the ability to develop its o
 ## [Historical Context]()
 
 - **McCulloch & Pitts (1943):** Introduced the first neural network models.
+
 - **Hebb (1949):** Developed the basic model of self-organization.
+
 - **Rosenblatt (1958):** Introduced the perceptron, a supervised learning model.
+
 - **Hopfield (1982), Rumelhart, Hinton & Williams:** Revived the field with symmetric networks for optimization and the backpropagation method.
   
 <br>
 
 ## [Artificial Neuron Mode]()
+
+<br>
 
 ### Each artificial neuron receives input signals $X_1, X_2, ..., X_p$ (binary or real values), each multiplied by a weight $w_1, w_2, ..., w_p$ (real values). The neuron computes a weighted sum (activity level):
 
@@ -103,7 +108,7 @@ $$
   
 #
 
-### [The output y is determined by an activation function, such as:]()
+### <p align="center"> [The output y is determined by an activation function, such as:]()
 
 <br>
 
@@ -626,7 +631,7 @@ While the document mentions sigmoid and tanh, it is useful to note:
 
 <br>
 
- # [Other Algorithms Used to Train Machine Learning Models]()
+ # [Algorithms Used to Train Machine Learning Models]()
 
 ## 1.[Gradient Descent]()
 
@@ -639,7 +644,7 @@ These steps are repeated iteratively, adjusting the model parameters opposite to
 
 <br>
 
-### 1 - [Gradient Descent (**Batch**) - Step by Step Code]()
+### 1 - [Gradient Descent (**Batch**)]()
 
 Gradient Descent is an iterative algorithm to minimize a cost function by adjusting parameters opposite to the gradient direction. Batch Gradient Descent calculates the gradient using the entire dataset each step, resulting in stable but sometimes slow parameter updates.
 
