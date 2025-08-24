@@ -1400,8 +1400,18 @@ print(f"Test accuracy: {test_acc * 100:.2f}%")
 - This approach is standard for classification tasks and directly shows how well your model performs on unseen data
 
 
+<br><br>
 
 
+## 16. [Overfitting and Early Stopping]()
+
+### - [Concept:**]()
+
+Overfitting means a model fits training data too closely including noise, harming generalization to new data.
+
+### - [**Use Case:**]()
+
+Early Stopping monitors validation loss and stops training when improvements cease, mitigating overfitting. This improves generalization in MNIST and other datasets.
 
 
 
