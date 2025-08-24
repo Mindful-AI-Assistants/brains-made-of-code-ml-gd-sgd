@@ -1329,8 +1329,19 @@ Alternative adaptive optimizer for neural networks.
 <br>
 
 ```python
+model_rms = Sequential([
+Flatten(input_shape=(28, 28)),
+Dense(128, activation='relu'),
+Dense(10, activation='softmax')
+])
 
+model_rms.compile(optimizer='rmsprop',
+loss='sparse_categorical_crossentropy',
+metrics=['accuracy'])
 
+model_rms.fit(x_train, y_train, epochs=5, validation_split=0.1, verbose=2)
+test_loss, test_acc = model_rms.evaluate(x_test, y_test, verbose=2)
+print(f"Test accuracy with RMSProp: {test_acc:.4f}")
 ```
 
 <br><br>
