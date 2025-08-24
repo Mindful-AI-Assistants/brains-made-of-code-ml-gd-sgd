@@ -1201,8 +1201,21 @@ print("ReLU outputs:", outputs)
 <br><br>
 
 
+## 10. [Regularization & Dropout Example]()
 
+### - [**Use Case:**]()
 
+Combat overfitting by randomly disabling neurons during training.
+
+### - [**Code:**]()
+
+<br>
+
+```python
+
+```
+
+<br><br>
 
 
 
