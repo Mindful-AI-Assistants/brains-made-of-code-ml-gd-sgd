@@ -1237,8 +1237,18 @@ Trade-offs in training efficiency and noise introduced.
 <br>
 
 ```python
+import numpy as np
 
+batch_size = 32
+dataset_size = 1000
+indices = np.arange(dataset_size)
 
+for epoch in range(5):
+np.random.shuffle(indices)
+for start in range(0, dataset_size, batch_size):
+end = start + batch_size
+batch_indices = indices[start:end]
+\# Perform training step on batch_data
 ```
 
 <br><br>
