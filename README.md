@@ -1433,6 +1433,24 @@ x_test = x_test / 255.0
 
 <br><br>
 
+### [Early Stopping Model Training Code (Sendoultimo Item):]()
+
+<br>
+
+```python
+
+
+
+```
+
+<br><br>
+
+
+
+
+
+
+
 
 
 
