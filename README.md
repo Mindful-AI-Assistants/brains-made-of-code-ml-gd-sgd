@@ -1391,6 +1391,24 @@ print(f"Test accuracy: {test_acc * 100:.2f}%")
 
 <br><br>
 
+### [Explanation]()
+
+- The `evaluate()` function runs the model on the test data and reports the loss and accuracy.
+
+- The accuracy is printed as a percentage for easier interpretation.
+
+- This approach is standard for classification tasks and directly shows how well your model performs on unseen data
+
+
+
+
+
+
+
+
+
+
+
 
 
 
