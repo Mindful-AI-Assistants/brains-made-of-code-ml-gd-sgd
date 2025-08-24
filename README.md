@@ -1348,10 +1348,19 @@ print(f"Test accuracy with RMSProp: {test_acc:.4f}")
 
 
 
+## 15. [Demonstrating Accuracy with MNIST Dataset]()
 
+To demonstrate the accuracy of your trained model on the MNIST dataset using TensorFlow, you should use the model's `evaluate()` method. This method returns both the loss and the evaluation metrics such as accuracy.
 
+### - [**Code Example:**]()
 
+<br>
 
+```python
+
+```
+
+<br><br>
 
 
 
