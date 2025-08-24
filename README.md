@@ -1438,9 +1438,27 @@ x_test = x_test / 255.0
 <br>
 
 ```python
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Flatten, Dense
+from tensorflow.keras.callbacks import EarlyStopping
 
+early_stopping = EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)
 
+model = Sequential([
+    Flatten(input_shape=(28, 28)),
+    Dense(128, activation='relu'),
+    Dense(10, activation='softmax')
+])
 
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+model.fit(x_train, y_train,
+          epochs=50,
+          validation_split=0.1,
+          callbacks=[early_stopping],
+          verbose=2)
 ```
 
 <br><br>
