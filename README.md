@@ -1226,10 +1226,22 @@ model.summary()
 
 <br><br>
 
+## 11. [Batch vs Mini-batch vs Online Learning]()
+
+### - [**Use Case:**]()
+
+Trade-offs in training efficiency and noise introduced.
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
+```
 
-
+<br><br>
 
 
 
