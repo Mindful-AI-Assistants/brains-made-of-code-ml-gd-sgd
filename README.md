@@ -1176,12 +1176,22 @@ print("Weights updated:", weights)
 <br><br>
 
 
+## 9. [Activation Functions: ReLU Example]()
+
+### - [**Use Case:**]()
+
+Effective activation to accelerate deep neural network training.
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
+```
 
-
-
-
+<br><br>
 
 
 
