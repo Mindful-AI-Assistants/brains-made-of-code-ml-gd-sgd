@@ -1265,8 +1265,16 @@ Normalize features to accelerate and stabilize training.
 <br>
 
 ```python
+from sklearn.preprocessing import StandardScaler
+import numpy as np
 
+X = np.random.rand(100, 5) * 10
 
+scaler = StandardScaler()
+X_normalized = scaler.fit_transform(X)
+
+print("Means after scaling:", np.mean(X_normalized, axis=0))
+print("Stds after scaling:", np.std(X_normalized, axis=0))
 ```
 
 <br><br>
