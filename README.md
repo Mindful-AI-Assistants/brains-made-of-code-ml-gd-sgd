@@ -1322,8 +1322,6 @@ print(f"Test accuracy: {test_acc:.4f}")
 
 Alternative adaptive optimizer for neural networks.
 
-### Code
-
 ### - [**Code:**]()
 
 <br>
