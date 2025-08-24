@@ -1280,10 +1280,22 @@ print("Stds after scaling:", np.std(X_normalized, axis=0))
 <br><br>
 
 
+## 13. [Adam Optimizer Example with MNIST]()
+
+### - [**Use Case:**]()
+
+Efficient training with adaptive gradients.
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
+```
 
-
+<br><br>
 
 
 
