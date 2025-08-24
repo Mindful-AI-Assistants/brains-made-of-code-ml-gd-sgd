@@ -1212,7 +1212,16 @@ Combat overfitting by randomly disabling neurons during training.
 <br>
 
 ```python
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
 
+model = Sequential([
+Dense(64, activation='relu', input_shape=(20,)),
+Dropout(0.5),
+Dense(1, activation='sigmoid')
+])
+
+model.summary()
 ```
 
 <br><br>
