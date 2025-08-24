@@ -1316,12 +1316,24 @@ print(f"Test accuracy: {test_acc:.4f}")
 <br><br>
 
 
+## 14. [RMSProp Optimizer Example with MNIST]()
+
+### - [**Use Case:**]()
+
+Alternative adaptive optimizer for neural networks.
+
+### Code
+
+### - [**Code:**]()
+
+<br>
+
+```python
 
 
+```
 
-
-
-
+<br><br>
 
 
 
