@@ -1411,14 +1411,21 @@ Overfitting means a model fits training data too closely including noise, harmin
 
 Early Stopping monitors validation loss and stops training when improvements cease, mitigating overfitting. This improves generalization in MNIST and other datasets.
 
+<br>
+
+### ⚠️ [Important:]() MNIST Loading and Normalization (Place This at the Start of Your Notebook/Script)
+
+Before running the training code below, ensure you have loaded and normalized the MNIST dataset so that the variables `x_train` and `y_train` exist and are ready for use.
 
 
+<br>
+
+```python
 
 
+```
 
-
-
-
+<br><br>
 
 
 
