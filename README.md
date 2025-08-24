@@ -1471,7 +1471,7 @@ model.fit(x_train, y_train,
 
 <br>
 
-This arrangement ensures that your model training example with early stopping is fully functional using the MNIST dataset, and provides a clear, logical flow for this script.
+> This arrangement ensures that your model training example with early stopping is fully functional using the MNIST dataset, and provides a clear, logical flow for this script.
 
 <br><br>
 
